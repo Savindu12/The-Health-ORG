@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p
+{
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.ban1
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background: url(Background.jpg);
+}
+
+.ban1 .cont
+{
+    max-width: 900px;
+    text-align: center;
+}
+
+.ban1 .cont h2
+{
+    font-size: 5em;
+    color: #fff;
+}
+
+.ban1 .cont p
+{
+    font-size: 1em;
+    color: #fff;
+}
