@@ -83,3 +83,19 @@ header.sticky ul li a
 {
   color: #000;
 }
+
+.container
+{
+  max-width: 1170px;
+  background-color: red;
+  margin: auto;
+}
+
+ul
+{
+  list-style: none;
+}
+.footer
+{
+  background-color: #fafcff;
+}
