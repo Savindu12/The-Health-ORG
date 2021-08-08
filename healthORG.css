@@ -55,6 +55,10 @@ section
   border-radius: 10px;
 }
 
+.about
+{
+  background:#fff;
+}
 .heading
 {
   width: 100%;
@@ -67,7 +71,7 @@ section
 {
   font-weight: 600;
   font-size: 30px;
-  color:#fff;
+  color:#111;
 }
 
 
@@ -87,7 +91,7 @@ section
 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #fff;
+  color: #111;
 }
 
 .w50
