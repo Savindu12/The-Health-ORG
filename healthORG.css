@@ -107,15 +107,9 @@ img
 .services
 {
   background:#2f2f30;
-  color: #fff;
 }
 
-.heading
-{
-  color: #fff;
-}
-
-.heading h2
+.heading .white
 {
   color: #fff;
 }
@@ -137,7 +131,7 @@ img
   margin: 20px;
   text-align: center;
   transition: 0.5s;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .services .content .serviceBx:hover
