@@ -104,3 +104,56 @@ img
   max-width: 100%;
 }
 
+.services
+{
+  background:#2f2f30;
+  color: #fff;
+}
+
+.heading
+{
+  color: #fff;
+}
+
+.heading h2
+{
+  color: #fff;
+}
+
+.services .content
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.services .content .serviceBx
+{
+  padding: 40px 20px;
+  background: #9599a1;
+  color: #111;
+  max-width: 340px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.services .content .serviceBx:hover
+{
+  background: #8ea5d4;
+}
+
+.services .content .serviceBx img
+{
+  max-height: 90px;
+  max-width: 90px;
+  filter: invert(1);
+}
+
+.services .content .serviceBx h2
+{
+  font-size: 20px;
+  font-weight: 600;
+}
