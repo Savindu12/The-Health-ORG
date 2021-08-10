@@ -42,9 +42,9 @@ section
 .btn
 {
   position: relative;
-  background:#2196f3;
+  background:#FFFFFF;
   display: inline-block;
-  color: #fff;
+  color: #111;
   margin-top: 20px;
   padding: 10px 30px;
   font-size: 18px;
@@ -53,6 +53,12 @@ section
   letter-spacing: 2px;
   font-weight: 500;
   border-radius: 10px;
+}
+
+.btn:hover{
+
+background: #111;
+color: #FFFFFF;
 }
 
 .about
