@@ -55,10 +55,10 @@ section
   border-radius: 10px;
 }
 
-.btn:hover{
-
-background: #111;
-color: #FFFFFF;
+.btn:hover
+{
+  background: #111;
+  color: #FFFFFF;
 }
 
 .about
@@ -80,7 +80,6 @@ color: #FFFFFF;
   font-size: 30px;
   color:#111;
 }
-
 
 .content
 {
