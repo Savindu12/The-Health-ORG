@@ -12,7 +12,7 @@
     background-position:center;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
 }
 
 .home .content
@@ -23,10 +23,26 @@
 
 .home .content h1
 {
-
+    font-size: 4rem;
+    color: #676b3b;
 }
 
 .home .content p
 {
-    
+    font-size: 2rem;
+    color: #676b3b;
+    font-weight: normal;
+}
+
+.btn
+{
+    display: inline-block;
+    padding: .7rem 3rem;
+    color: #fff;
+    background: rgb(38, 23, 80);
+    border-radius: 10px;
+    box-shadow: #111;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    text-decoration: none;
 }
