@@ -15,7 +15,7 @@ section
 {
   position: relative;
   min-height: 100vh;
-  background:url(Background.jpg);
+  background:url(images/Background.jpg);
   background-size: cover;
   background-position:right;
   display: flex;
@@ -42,9 +42,9 @@ section
 .btn
 {
   position: relative;
-  background:#2196f3;
+  background:#F4EDED;
   display: inline-block;
-  color: #fff;
+  color: #111;
   margin-top: 20px;
   padding: 10px 30px;
   font-size: 18px;
@@ -55,10 +55,17 @@ section
   border-radius: 10px;
 }
 
+.btn:hover
+{
+  background: #111;
+  color: #FFFFFF;
+}
+
 .about
 {
   background:#fff;
 }
+
 .heading
 {
   width: 100%;
@@ -69,11 +76,10 @@ section
 
 .heading h2
 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 30px;
   color:#111;
 }
-
 
 .content
 {
@@ -107,3 +113,51 @@ img
   max-width: 100%;
 }
 
+.services
+{
+  background:#2f2f30;
+}
+
+.heading .white
+{
+  color: #fff;
+}
+
+.services .content
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.services .content .serviceBx
+{
+  padding: 40px 20px;
+  background: #9599a1;
+  color: #111;
+  max-width: 340px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.services .content .serviceBx:hover
+{
+  background: #8ea5d4;
+}
+
+.services .content .serviceBx img
+{
+  max-height: 90px;
+  max-width: 90px;
+  filter: invert(1);
+}
+
+.services .content .serviceBx h2
+
+{
+  font-size: 20px;
+  font-weight: 600;
+}
