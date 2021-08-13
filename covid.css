@@ -7,7 +7,7 @@
 
 .home
 {
-    background: url(images/world.jpg) no-repeat;
+    background: url(images/ccc.jpg) no-repeat;
     background-size: cover;
     background-position:center;
     position: relative;
@@ -24,13 +24,13 @@
 .home .content h1
 {
     font-size: 4rem;
-    color: #676b3b;
+    color: #111;
 }
 
 .home .content p
 {
     font-size: 2rem;
-    color: #676b3b;
+    color: rgb(21, 22, 84);
     font-weight: normal;
 }
 
@@ -49,10 +49,10 @@
 
 .btn:hover
 {
-    background: #03e9f4;
+    background: #f4f4f8;
     color: #050801;
-    box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4,
-                0 0 20px #03e9f4,
-                0 0 200px #03e9f4 ;
+    box-shadow: 0 0 5px #e9eeee,
+                0 0 25px #f5fafa,
+                0 0 20px #e1e5e6,
+                0 0 200px #f4f8f8 ;
 }
