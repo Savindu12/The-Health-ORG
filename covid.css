@@ -99,10 +99,63 @@
 .w50
 {
   max-width: 50%;
-  margin: 10px;
 }
 
 .img1
 {
   max-width: 100%;
+}
+
+.services
+{
+  background:#2f2f30;
+}
+
+.heading .white
+{
+  color: #fff;
+}
+
+.services .content
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.services .content .serviceBx
+{
+  padding: 40px 20px;
+  background: #9599a1;
+  color: #111;
+  max-width: 340px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.services .content .serviceBx:hover
+{
+  background: url(images/images\ \(4\).jpg);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: 100%;
+  transition: 0.5s;
+  
+}
+
+.services .content .serviceBx img
+{
+  max-height: 90px;
+  max-width: 90px;
+  filter: invert(1);
+}
+
+.services .content .serviceBx h2
+
+{
+  font-size: 20px;
+  font-weight: 600;
 }
