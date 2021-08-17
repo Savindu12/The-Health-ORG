@@ -138,12 +138,7 @@
 
 .services .content .serviceBx:hover
 {
-  background: url(images/images\ \(4\).jpg);
-  background-repeat: no-repeat;
-  max-width: 100%;
-  max-height: 100%;
-  transition: 0.5s;
-  
+  background: #8ea5d4;
 }
 
 .services .content .serviceBx img
