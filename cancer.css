@@ -23,8 +23,9 @@
 
 .home .cont h1
 {
-    font-size: 4rem;
-    color: #fff;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 .home .cont p
