@@ -1,4 +1,4 @@
-.section
+.section 
 {
     min-height: 100vh;
     padding: 1rem 9%;
@@ -155,6 +155,10 @@
   font-weight: 600;
 }
 
+.prevent
+{
+  background: rgb(120, 159, 231);
+}
 .prevent-heading
 {
   text-align: center;
@@ -162,5 +166,41 @@
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: normal;
+  padding: 1rem;
+}
+
+.prevent .box-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.prevent .box-container .box
+{
+  flex: 1 1 30rem;
+  border-radius: .5rem;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.prevent .box-container .box img
+{
+  height: 12rem;
+  padding: 1rem;
+}
+
+.prevent .box-container .box h3
+{
+  color: var(--blue);
+  font-size: 1.4rem;
+}
+
+.prevent .box-container .box p
+{
+  color: var(--dark-blue);
+  font-size: 1.0rem;
   padding: 1rem;
 }
