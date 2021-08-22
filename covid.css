@@ -154,3 +154,13 @@
   font-size: 20px;
   font-weight: 600;
 }
+
+.prevent-heading
+{
+  text-align: center;
+  color: var(--blue);
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 1rem;
+}
