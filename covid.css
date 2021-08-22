@@ -179,7 +179,7 @@
 
 .prevent .box-container .box
 {
-  flex: 1 1 30rem;
+  flex:1 1 25em;
   border-radius: .5rem;
   margin: 1rem;
   padding: 1rem;
@@ -210,3 +210,55 @@
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
 }
 
+.symptoms
+{
+  background: url(Images/virus2.jpg) no-repeat;
+  background-size: cover;
+  background-position:center ;
+  background-attachment: fixed;
+}
+
+.symptoms h1
+{
+  color: #fff;
+  padding-top: 2rem;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+.symptoms .column
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.symptoms .column .main-image img
+{
+  width:43vh;
+}
+
+.symptoms .column .box-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.symptoms .column .box-container .box
+{
+     margin: 1rem;
+     text-align: center;
+}
+
+.symptoms .column .box-container img
+{
+  width: 20rem;
+  padding: 1rem;
+}
+
+.symptoms .column .box-container .box h3
+{
+  font-size: 2rem;
+  color: #fff;
+}
