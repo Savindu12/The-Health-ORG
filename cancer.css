@@ -23,28 +23,30 @@
 
 .home .cont h1
 {
-    font-size: 4rem;
-    color: #fff;
+    float: right;
+    font-size: 2.45rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px #0c0b0b, 0 0 5px #141414f8;
+    margin-right: 20px;
+    
+    
 }
 
-.home .cont p
-{
-    font-size: 2rem;
-    color: rgb(255, 241, 46);
-    font-weight: normal;
-}
+
 
 .btn
 {
-    display: inline-block;
-    padding: .7rem 3rem;
+    
+     padding: .7rem 3rem;
     color: #fff;
     background: rgb(15, 14, 15);
     border-radius: 40px;
     box-shadow: #111;
-    margin-top: 1rem;
+    margin-top: 50rem;
     font-size: 1.7rem;
     text-decoration: none;
+    margin-left: 70rem;
+   
 }
 
 .btn:hover
