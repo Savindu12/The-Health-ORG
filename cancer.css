@@ -7,7 +7,7 @@
 
 .home
 {
-    background: url(images/cancer.jpg) no-repeat;
+    background: url(cancer\ image/cancer.jpg) no-repeat;
     background-size: cover;
     background-position:center;
     position: relative;
