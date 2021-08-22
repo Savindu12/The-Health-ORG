@@ -204,3 +204,8 @@
   font-size: 1.0rem;
   padding: 1rem;
 }
+
+.prevent .box-container .box:hover
+{
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+}
