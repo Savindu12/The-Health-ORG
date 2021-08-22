@@ -154,3 +154,50 @@
   font-size: 20px;
   font-weight: 600;
 }
+.function
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.function h2
+{
+  font-weight: 700;
+  font-size: 50px;
+  color:rgb(219, 107, 107);
+}
+
+.para
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.paraBx
+{
+  padding-right: 50px;
+}
+
+.paraBx p
+{
+  font-size: 24px;
+  margin-bottom: 200px;
+  color: rgb(118, 167, 182);
+  padding-left: 10px;
+}
+.Treatments
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.Treatments h2
+{
+  font-weight: 700;
+  font-size: 50px;
+  color:rgb(219, 107, 107);
+}
