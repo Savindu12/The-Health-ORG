@@ -23,11 +23,11 @@
 
 .home .cont h1
 {
-    float: right;
-    font-size: 2.45rem;
-    color: rgb(255, 255, 255);
-    text-shadow: 0 0 3px #0c0b0b, 0 0 5px #141414f8;
-    margin-right: 20px;
+   
+margin-top: 2%;
+    font-size: 3.55rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff;
     
     
 }
@@ -37,24 +37,81 @@
 .btn
 {
     
-     padding: .7rem 3rem;
-    color: #fff;
-    background: rgb(15, 14, 15);
+    display: inline-block;
+    padding: .7rem 3rem;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     border-radius: 40px;
     box-shadow: #111;
-    margin-top: 50rem;
+    margin-top: 2rem;
     font-size: 1.7rem;
     text-decoration: none;
-    margin-left: 70rem;
    
 }
 
 .btn:hover
 {
-    background: #f4f4f8;
-    color: #050801;
-    box-shadow: 0 0 5px #e9eeee,
-                0 0 20px #f5fafa,
-                0 0 15px #e1e5e6,
-                0 0 50px #e1e5e6 ;
+    background: #ffffff;
+    color: #000000;
+    box-shadow: 0 0 7px #ffffff,
+                0 0 2px #ffffff,
+                0 0 10px #ffffff,
+                0 0 10px #ffffff ;
+}
+
+
+.about
+{
+  background:#fff;
+}
+
+.heading
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.heading h2
+{
+  font-weight: 700;
+  font-size: 30px;
+  color:#111;
+  float: left;
+}
+
+
+.content
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.contentBx
+{
+  padding-right: 30px;
+}
+
+
+.contentBx p
+{
+    float:left;
+    margin-top: 50px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #111;
+  
+}
+
+
+.w50
+{
+  max-width: 50%;
+}
+
+.img1
+{
+  max-width: 100%;
 }
