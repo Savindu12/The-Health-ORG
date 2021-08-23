@@ -7,7 +7,7 @@
 
 .home
 {
-    background: url(images/mosquito.jpg) no-repeat;
+    background: url(dengueImages/m3.jpg) no-repeat;
     background-size: cover;
     background-position:center;
     position: relative;
@@ -24,13 +24,13 @@
 .home .cont h1
 {
     font-size: 4rem;
-    color: #fff;
+    color: rgb(19, 17, 19);
 }
 
 .home .cont p
 {
     font-size: 2rem;
-    color: rgb(255, 241, 46);
+    color: rgb(189, 15, 24);
     font-weight: normal;
 }
 
@@ -39,7 +39,7 @@
     display: inline-block;
     padding: .7rem 3rem;
     color: #fff;
-    background: rgb(15, 14, 15);
+    background: rgb(175, 14, 175);
     border-radius: 40px;
     box-shadow: #111;
     margin-top: 1rem;
@@ -50,11 +50,13 @@
 .btn:hover
 {
     background: #f4f4f8;
-    color: #050801;
-    box-shadow: 0 0 5px #e9eeee,
-                0 0 20px #f5fafa,
-                0 0 15px #e1e5e6,
-                0 0 50px #e1e5e6 ;
+    color: #29ecec;
+    box-shadow: 0 0 5px #1dc8f3,
+                0 0 20px #076db1,
+                0 0 15px #2f79e9,
+                0 0 50px #074db4 ;
+                
+               
 }
 
 .about
