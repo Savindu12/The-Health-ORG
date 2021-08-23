@@ -71,14 +71,17 @@ margin-top: 2%;
   text-align: center;
   margin-bottom: 30px;
   color: #111;
+  margin-top: 20px;
 }
 
 .heading h2
 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 40px;
   color:#111;
   float: left;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 
@@ -94,15 +97,14 @@ margin-top: 2%;
   padding-right: 30px;
 }
 
-
 .contentBx p
 {
-    float:left;
-    margin-top: 50px;
   font-size: 24px;
   margin-bottom: 10px;
   color: #111;
-  
+  margin-left: -285px;
+  margin-top: 20px;
+ text-align: justify;
 }
 
 
@@ -113,5 +115,9 @@ margin-top: 2%;
 
 .img1
 {
-  max-width: 100%;
+    margin-top: 30px;
+    float: right;
+    margin-right: 30px;
+  width: 440px;
+  height: 330px;
 }
