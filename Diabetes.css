@@ -94,62 +94,34 @@
   color: rgb(118, 167, 182);
   padding-left: 10px;
 }
-
-.w50
+.mainbox
 {
-  max-width: 50%;
+  background: darkgray;
 }
-
-.img1
+.heading
 {
-  max-width: 100%;
-}
-
-.services
-{
-  background:#2f2f30;
-}
-
-.heading .white
-{
-  color: #fff;
-}
-
-.services .content
-{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.services .content .serviceBx
-{
-  padding: 40px 20px;
-  background: #9599a1;
-  color: #111;
-  max-width: 340px;
-  margin: 20px;
   text-align: center;
-  transition: 0.5s;
-  border-radius: 5px;
+  font-style: italic;
+  font-size: 40pt;
+  text-shadow: black;
+  padding: 1rem;
+}
+.main
+{ 
+  display: inline-flex;
+  align-content: center;
 }
 
-.services .content .serviceBx:hover
+.box
 {
-  background: #8ea5d4;
+  width: 350px;
+  height: 500px;
+  background-color: gray;
+  float: left;
+  border: 1px solid black;
+  padding: 40px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: black;
 }
 
-.services .content .serviceBx img
-{
-  max-height: 90px;
-  max-width: 90px;
-  filter: invert(1);
-}
-
-.services .content .serviceBx h2
-
-{
-  font-size: 20px;
-  font-weight: 600;
-}
