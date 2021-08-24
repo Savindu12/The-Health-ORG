@@ -144,8 +144,8 @@
 
 .box1
 {
-  width: 375px;
-  height: 375px;
+  width: 370px;
+  height: 370px;
   background-color: gray;
   float: left;
   padding: 40px;
@@ -154,8 +154,8 @@
 }
 .box2
 {
-  width: 375px;
-  height: 375px;
+  width: 370px;
+  height: 370px;
   background-color: white;
   float: left;
   padding: 40px;
@@ -165,7 +165,7 @@
 
 .img
 {
-  width: 375px;
-  height: 375px;
+  width: 370px;
+  height: 370px;
 }
 
