@@ -124,4 +124,48 @@
   text-align: center;
   box-shadow: black;
 }
+.mainbox1
+{
+  background: darkgray;
+}
+.heading2
+{
+  text-align: center;
+  font-style: italic;
+  font-size: 40pt;
+  text-shadow: black;
+  padding: 1rem;
+}
+.main1
+{ 
+  display: inline-flex;
+  align-content: center;
+}
+
+.box1
+{
+  width: 375px;
+  height: 375px;
+  background-color: gray;
+  float: left;
+  padding: 40px;
+  text-align: center;
+  box-shadow: black;
+}
+.box2
+{
+  width: 375px;
+  height: 375px;
+  background-color: white;
+  float: left;
+  padding: 40px;
+  text-align: center;
+  box-shadow: black;
+}
+
+.img
+{
+  width: 375px;
+  height: 375px;
+}
 
