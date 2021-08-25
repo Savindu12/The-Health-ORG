@@ -96,7 +96,10 @@
 }
 .mainbox
 {
-  background: darkgray;
+  background: url(88.jpg) no-repeat;
+  background-size: cover;
+  background-position:center ;
+  background-attachment: fixed;
 }
 .heading1
 {
