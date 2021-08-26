@@ -341,3 +341,44 @@ margin: 0 auto;
   right: 0;
 
 }
+
+.service1 > .justify-content
+{
+
+  display: inline-block;
+  color: tomato;
+  font-size: 3.5em;
+  margin-bottom: 0.7em;
+  transition: color 0.3s ease-out;
+
+}
+
+.service1 > .title5
+{
+
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.55em;
+  margin-bottom: 1.2em;
+  text-transform: uppercase;
+  transition: color 0.3s ease-out;
+
+
+}
+.service1 > .para4
+{
+
+  line-height: 1.55em;
+  margin: 0;
+  transition: color 0.3s ease-out;
+
+}
+
+.service1 :hover > .icon,
+.service1 :hover > .title5,
+.service1 :hover > .para4
+
+{
+
+  color: #fff;
+}
