@@ -224,3 +224,40 @@ margin-left: 10px;
   margin-right: 20px;
 
 }
+
+
+
+
+
+
+.sec{
+
+  margin-top: 20px;
+  
+  }
+  
+  .container2
+  {
+    background-color: #222f3e;
+    color: #fff;
+    min-height: 100vh;
+    font-family: tahoma;
+  }
+  
+  .section4
+  {
+  
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .section4 > h1
+  {
+  font-weight: 300px !important;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 3em;
+  
+  }
+  
