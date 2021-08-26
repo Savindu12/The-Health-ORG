@@ -305,3 +305,39 @@ margin: 0 auto;
         transform 0.3s ease-in;
 
   width: 249.9px;
+
+
+}
+
+.service1 >ul
+{
+  justify-content: justify;
+}
+
+.service1:hover
+{
+  background-color: #e14460;
+  transform: translateY(-3px);
+
+}
+
+.service1::before
+{
+
+  content: "";
+  top: -35px;
+  position: absolute;
+  right: -40px;
+  border-width: 20px;
+  border-style: solid;
+  background-color: #222f3e rgba(0, 0, 0,0.4) #2c4159c9;
+  transition: right 0.3s ease-out,;
+
+}
+.service1:hover::before
+{
+
+  top: 0;
+  right: 0;
+
+}
