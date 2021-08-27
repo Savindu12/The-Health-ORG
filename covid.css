@@ -299,4 +299,29 @@
   background: #ff3300;
 }
 
+.precautions .column .box-container .box
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
 
+.precautions .column .box-container .box img
+{
+  width: 15rem;
+  padding: 1rem;
+}
+
+.precautions .column .box-container .box h3
+{
+  font-size: 2rem;
+  color: #2624a1b9;
+}
+
+.precautions .column .box-container .box p
+{
+  font-size: 1.2rem;
+  color: rgb(4, 4, 68);
+  padding: 1rem 0;
+}
