@@ -431,59 +431,70 @@ margin: 0 auto;
 
 
 
-.section6
+.container3
 {
-
-  background: black;
+  background-color: white;
+  border: 1px solid black;
 }
 
-.row2
+.box3
 {
-  margin-top: 5%;
-  display: flex;
-  justify-content: space-between;
+
+  background-color:blue;
+  border: 1px solid black;
 }
 
-.section6-col{
-
-  
-  background: #7af5c8;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
-  transition: 0.5s;
-  margin-left: 10px;
-  height: 100%;
-  width: 100%;
-
-
-}
-
-.title7
+.box3 h1
 {
+  color: white;
   text-align: center;
-  font-weight: 600;
-  margin: 10px 0;
-  font-size: 40px;
-  color: #fff;
-
 }
-.section6-col:hover
+
+.box4
 {
-
-  box-shadow: 0 0 5px #ffffff,
-                0 0 20px rgb(255, 255, 255),
-                0 0 15px #ffffff,
-                0 0 50px #ffffff ;
-
+  border: 1px solid black;
+  text-align: justify;
+  background-image: url(pngtree-medical-red-cross-gesture-medical-element-image_14512.jpg);
+  height: 450px;
+  background-size: cover;
+  font-size: 20px;
 }
+
+
+.box4 h3
+{
+  font-size: 30px;
+}
+
+
 
 #img4
 {
-  width:38%;
+  width: 300px;
   height: 250px;
-  margin-left: 355px;
-  
+  margin-left: 29%;
+}
+
+
+
+
+
+
+
+.box7
+{
+  border: 1px solid black;
+  text-align: justify;
+  margin-top: 5px;
+  background-image: url(img5.jpg);
+  font-size: 20px;
+  background-size: cover
+  height: 450px;
+}
+
+
+.box7 h3
+{
+  font-size: 30px;
 }
 
