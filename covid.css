@@ -287,7 +287,16 @@
 .precautions .column .box-container .title
 {
   padding: 1.5rem .5rem;
-  
+  text-align: center;
+  font-size: 2.5rem;
+  background: rgb(69, 69, 212);
+  color: #fff;
+
+}
+
+.precautions .column .box-container:last-child .title
+{
+  background: #ff3300;
 }
 
 
