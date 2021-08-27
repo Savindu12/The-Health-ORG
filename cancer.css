@@ -431,6 +431,388 @@ margin: 0 auto;
 
 
 
+.about
+{
+  background:#fff;
+}
+
+.heading
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #111;
+  margin-top: 20px;
+}
+
+.heading h2
+{
+  font-weight: 700;
+  font-size: 40px;
+  color:#111;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+.content
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.contentBx
+{
+  padding-right: 30px;
+}
+
+.contentBx p
+{
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #111;
+  margin-left: -285px;
+  margin-top: 20px;
+ text-align: justify;
+}
+
+
+.w50
+{
+  max-width: 50%;
+}
+
+.img1
+{
+    margin-top: 30px;
+    float: right;
+    margin-right: 30px;
+  width: 440px;
+  height: 330px;
+}
+
+
+
+
+
+
+
+
+
+.container1
+{
+  background-color: #fff;
+  border: 1px solid black;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+}
+
+.box1
+{
+  border: 1px solid black;
+  background-color: green;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+  text-align: center;
+  height: 85px;
+
+}
+
+.box1 title1
+{
+
+  color: #fff;
+  text-align: center;
+
+}
+
+
+.box2
+{
+  text-align: justify;
+}
+
+.title2
+{
+  color: blue;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.img2
+{
+  margin-left: 289px;
+  
+}
+
+
+
+
+
+.para2
+{
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 20px;
+  font-style: sans-serif;
+
+}
+
+
+.ul1
+{
+  margin-left: 80px;
+  font-size: 20px;
+  font-style: sans-serif;
+}
+
+
+.para3
+{
+  margin-right: 40px;
+  font-size: 20px;
+  font-style: sans-serif;
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+.sec{
+
+margin-top: 20px;
+
+}
+
+.container2
+{
+  background-color: #222f3e;
+  color: #fff;
+  min-height: 100vh;
+  font-family: tahoma;
+}
+
+.section4
+{
+
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section4 > h1
+{
+font-weight: 300px !important;
+letter-spacing: 1px;
+text-align: center;
+margin-top: 60px;
+font-size: 3em;
+
+}
+
+
+
+#im1
+{
+
+  width: 300px;
+  height: 300px;
+}
+
+
+#im2
+{
+
+  width: 300px;
+  height: 300px;
+}
+
+.container2
+{
+width: 90%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 0 auto;
+
+}
+
+.services1
+{
+
+  margin-top: 30px;
+}
+
+.service1
+{
+  background-color: #282830;
+  margin: 10px;
+  padding: 35px 15px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  transition: background-color 0.3s ease-in,
+        transform 0.3s ease-in;
+
+  width: 249.9px;
+
+
+}
+
+.service1 >ul
+{
+  justify-content: justify;
+}
+
+.service1:hover
+{
+  background-color: #e14460;
+  transform: translateY(-3px);
+
+}
+
+.service1::before
+{
+
+  content: "";
+  top: -35px;
+  position: absolute;
+  right: -40px;
+  border-width: 20px;
+  border-style: solid;
+  background-color: #222f3e rgba(0, 0, 0,0.4) #2c4159c9;
+  transition: right 0.3s ease-out,;
+
+}
+.service1:hover::before
+{
+
+  top: 0;
+  right: 0;
+
+}
+
+.service1 > .justify-content
+{
+
+  display: inline-block;
+  color: tomato;
+  font-size: 3.5em;
+  margin-bottom: 0.7em;
+  transition: color 0.3s ease-out;
+
+}
+
+.service1 > .title5
+{
+
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.55em;
+  margin-bottom: 1.2em;
+  text-transform: uppercase;
+  transition: color 0.3s ease-out;
+
+
+}
+.service1 > .para4
+{
+
+  line-height: 1.55em;
+  margin: 0;
+  transition: color 0.3s ease-out;
+
+}
+
+.service1 :hover > .icon,
+.service1 :hover > .title5,
+.service1 :hover > .para4
+
+{
+
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section5
+{
+  background-color: #aaaab3;
+}
+
+
+
+.row1
+
+{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.section5-col{
+
+  flex-basis: 31%;
+  background: #d795ed;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  margin-left: 10px;
+  height: 300px;
+
+}
+
+.title6 
+{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+
+}
+.section5-col:hover
+{
+
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+}
+
+#img3
+{
+  width: 50%;
+  height: 300px;
+  margin-left: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container3
 {
   background-color: white;
@@ -474,10 +856,6 @@ margin: 0 auto;
   height: 250px;
   margin-left: 29%;
 }
-
-
-
-
 
 
 
