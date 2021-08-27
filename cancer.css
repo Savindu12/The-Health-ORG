@@ -424,3 +424,66 @@ margin: 0 auto;
   height: 300px;
   margin-left: 350px;
 }
+
+
+
+
+
+
+
+.section6
+{
+
+  background: black;
+}
+
+.row2
+{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section6-col{
+
+  
+  background: #7af5c8;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  margin-left: 10px;
+  height: 100%;
+  width: 100%;
+
+
+}
+
+.title7
+{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+  font-size: 40px;
+  color: #fff;
+
+}
+.section6-col:hover
+{
+
+  box-shadow: 0 0 5px #ffffff,
+                0 0 20px rgb(255, 255, 255),
+                0 0 15px #ffffff,
+                0 0 50px #ffffff ;
+
+}
+
+#img4
+{
+  width:38%;
+  height: 250px;
+  margin-left: 355px;
+  
+}
+
