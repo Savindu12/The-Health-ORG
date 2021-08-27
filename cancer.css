@@ -367,3 +367,60 @@ margin: 0 auto;
 
   color: #fff;
 }
+
+
+
+
+
+
+.section5
+{
+  background-color: #aaaab3;
+}
+
+
+
+.row1
+
+{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.section5-col{
+
+  flex-basis: 31%;
+  background: #d795ed;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  margin-left: 10px;
+  height: 300px;
+
+}
+
+.title6 
+{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+
+}
+.section5-col:hover
+{
+
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+}
+
+#img3
+{
+  width: 50%;
+  height: 300px;
+  margin-left: 350px;
+}
