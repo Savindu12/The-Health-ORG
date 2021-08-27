@@ -39,11 +39,11 @@ margin-top: 2%;
     
     display: inline-block;
     padding: .7rem 3rem;
-    color: rgb(255, 255, 255);
-    background: rgb(0, 0, 0);
+    color: #fff;
+    background: rgb(15, 14, 15);
     border-radius: 40px;
     box-shadow: #111;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 1.7rem;
     text-decoration: none;
     
@@ -57,10 +57,10 @@ margin-top: 2%;
 {
     background: #f4f4f8;
     color: #050801;
-    box-shadow: 0 0 5px #ffffff,
-                0 0 20px rgb(255, 255, 255),
-                0 0 15px #ffffff,
-                0 0 50px #ffffff ;
+    box-shadow: 0 0 5px #e9eeee,
+                0 0 20px #f5fafa,
+                0 0 15px #e1e5e6,
+                0 0 50px #e1e5e6 ;
   
   
     
@@ -172,6 +172,7 @@ margin-top: 2%;
 	font-size: 30px;
 	margin-left: 20px;
 	margin-top: 50px;
+
 }
 
 .img2
@@ -199,6 +200,7 @@ margin-top: 2%;
 	margin-left: 80px;
 	font-size: 20px;
 	font-style: sans-serif;
+  list-style: disc;
 }
 
 
@@ -840,6 +842,12 @@ margin: 0 auto;
   height: 450px;
   background-size: cover;
   font-size: 20px;
+}
+.treats
+{
+  margin-left: 40px;
+  list-style: disc;
+
 }
 
 
