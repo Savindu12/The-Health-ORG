@@ -836,7 +836,7 @@ margin: 0 auto;
 {
   border: 1px solid black;
   text-align: justify;
-  background-image: url(pngtree-medical-red-cross-gesture-medical-element-image_14512.jpg);
+  background-image: url(cancer\ image/pngtree-medical-red-cross-gesture-medical-element-image_14512.jpg);
   height: 450px;
   background-size: cover;
   font-size: 20px;
@@ -864,10 +864,10 @@ margin: 0 auto;
   border: 1px solid black;
   text-align: justify;
   margin-top: 5px;
-  background-image: url(img5.jpg);
+  background: url(cancer\ image/img5.jpg);
   font-size: 20px;
-  background-size: cover
-  height: 450px;
+  background-size: cover;
+  height:450px;
 }
 
 
