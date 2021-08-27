@@ -263,3 +263,31 @@
   color: #fff;
 }
 
+.precautions
+{
+  background: #fff;
+}
+
+.precautions .column
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.precautions .column .box-container
+{
+  margin: 1.5rem;
+  flex: 1 1 50rem;
+  border: .1rem solid rgba(0, 0, 0, 1);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+  border-radius: .5rem;
+}
+
+.precautions .column .box-container .title
+{
+  padding: 1.5rem .5rem;
+  
+}
+
+
