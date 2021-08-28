@@ -197,3 +197,16 @@
   text-align: center;
 }
 
+
+.heading3
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(69, 183, 236);
+  font-size: 3rem;
+}
+.w50
+{
+  max-width: 50%;
+}
