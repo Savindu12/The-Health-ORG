@@ -32,8 +32,6 @@
     
 }
 
-
-
 .btn
 {
     
@@ -46,9 +44,6 @@
     margin-top: 1rem;
     font-size: 1.7rem;
     text-decoration: none;
-    
-
-
    
 }
 
@@ -62,7 +57,6 @@
                 0 0 15px #e1e5e6,
                 0 0 50px #e1e5e6 ;
    
-    
 }
 
 
@@ -109,7 +103,7 @@
   margin-bottom: 10px;
   color: #111;
   margin-left: -285px;
-  
+  margin-top: 20px;
  text-align: justify;
 }
 
@@ -134,15 +128,18 @@
 
 .container1
 {
+  margin-top: 3px;
 	background-color: #fff;
 	border: 1px solid black;
 	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+  margin-left:2px ;
+  margin-right:2px;
 }
 
 .box1
 {
 	border: 1px solid black;
-	background-color: green;
+	background-color: tomato;
 	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
 	text-align: center;
 	height: 85px;
@@ -154,7 +151,8 @@
 
 	color: #fff;
 	text-align: center;
-
+  padding-top: 50%;
+  
 }
 
 
