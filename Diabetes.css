@@ -96,7 +96,7 @@
 }
 .mainbox
 {
-  background: url(Images/88.jpg) no-repeat;
+  background: url(Images/59.jpg) no-repeat;
   background-size: cover;
   background-position:center ;
   position: relative;
@@ -206,7 +206,11 @@
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
+<<<<<<< HEAD
   color: rgb(236, 12, 12);
+=======
+  color: rgb(15, 15, 15);
+>>>>>>> c72730ea6bfe2906df4ea1f1a6f7ea2afe969eae
   font-size: 3rem;
   
 }
