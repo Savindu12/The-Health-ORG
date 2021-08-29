@@ -143,18 +143,18 @@
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
   text-align: center;
   height: 85px;
-  border-radius: 18px;
-  margin-top: 2px;
+  border-radius: 12px;
+  margin-top: 1px;
 
 }
 
 
-.box1 title1
+.title1
 {
 
 	color: #fff;
 	text-align: center;
- padding-top: 40px;
+ padding-top: 15px;
   
 }
 
