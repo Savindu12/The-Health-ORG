@@ -285,7 +285,7 @@ margin: 0 auto;
 {
 
   margin-top: 70px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .service1
@@ -367,8 +367,9 @@ margin: 0 auto;
   line-height: 1.55em;
   margin: 0;
   transition: color 0.3s ease-out;
-  padding-top: 25px;
-  font-size: 30px;
+  padding-top: 21px;
+  font-size: 17px;
+  
 
 }
 
@@ -389,6 +390,7 @@ margin: 0 auto;
 .section5
 {
   background-color: #aaaab3;
+  padding-bottom: 40px;
 }
 
 
@@ -396,9 +398,10 @@ margin: 0 auto;
 .row1
 
 {
-  margin-top: 8.5%;
+  margin-top: 60px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: -50px;
 }
 
 
