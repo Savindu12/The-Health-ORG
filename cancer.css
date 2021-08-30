@@ -389,7 +389,7 @@ margin: 0 auto;
 .row1
 
 {
-  margin-top: 5%;
+  margin-top: 8.5%;
   display: flex;
   justify-content: space-between;
 }
@@ -415,7 +415,7 @@ margin: 0 auto;
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
-  padding-top: 50px;
+  padding-top: 70px;
   font-size: 45px;
 
 }
