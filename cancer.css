@@ -142,7 +142,7 @@
   background-color: tomato;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
   text-align: center;
-  height: 85px;
+  height: 95px;
   border-radius: 12px;
  
 
@@ -415,6 +415,7 @@ margin: 0 auto;
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
+  padding-top: 40px;
 
 }
 .section5-col:hover
