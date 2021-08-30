@@ -142,7 +142,7 @@
   background-color: tomato;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
   text-align: center;
-  height: 85px;
+  height: 95px;
   border-radius: 12px;
  
 
@@ -163,6 +163,7 @@
 .box2
 {
 	text-align: justify;
+  margin-bottom: 100px;
 }
 
 .title2
@@ -224,6 +225,7 @@
   margin-right: -72px;
   margin-bottom: -8px;
   
+  
   }
   
   .container2
@@ -232,13 +234,15 @@
     color: #fff;
     min-height: 100vh;
     font-family: tahoma;
+    padding-bottom: 100px;
+    padding-top: 100px;
   }
   
   .section4
   {
   
     width: 90%;
-    margin: 0 auto;
+    margin-top: -90px;
   }
   
   .section4 > h1
@@ -280,7 +284,8 @@ margin: 0 auto;
 .services1
 {
 
-  margin-top: 30px;
+  margin-top: 70px;
+  margin-bottom: 50px;
 }
 
 .service1
@@ -295,6 +300,7 @@ margin: 0 auto;
         transform 0.3s ease-in;
 
   width: 249.9px;
+  height: 370px;
 
 
 }
@@ -361,6 +367,8 @@ margin: 0 auto;
   line-height: 1.55em;
   margin: 0;
   transition: color 0.3s ease-out;
+  padding-top: 25px;
+  font-size: 30px;
 
 }
 
@@ -388,7 +396,7 @@ margin: 0 auto;
 .row1
 
 {
-  margin-top: 5%;
+  margin-top: 8.5%;
   display: flex;
   justify-content: space-between;
 }
@@ -414,6 +422,8 @@ margin: 0 auto;
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
+  padding-top: 70px;
+  font-size: 45px;
 
 }
 .section5-col:hover
@@ -428,6 +438,7 @@ margin: 0 auto;
   width: 50%;
   height: 300px;
   margin-left: 350px;
+  padding-top: 50px;
 }
 
 
