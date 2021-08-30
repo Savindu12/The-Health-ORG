@@ -223,7 +223,7 @@
 
 .img2
 {
-  max-width: 100%;
+  max-width: 75%;
 }
 .para1
 {
@@ -288,7 +288,7 @@
 }
 .aabb
 {
-  background: url(Images/dan-gold-4_jhDO54BYg-unsplash.jpg) no-repeat;
+  background: url(Images/katie-smith-uQs1802D0CQ-unsplash.jpg) no-repeat;
   background-size: cover;
   background-position:center ;
   background-attachment: fixed;
