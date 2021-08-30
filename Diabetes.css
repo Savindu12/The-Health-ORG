@@ -139,10 +139,7 @@
   color: magenta;
 }
 
-.img
-{
-  max-width: 100%;
-}
+
 .sym{
   margin: 0;
   padding: 0;
@@ -242,5 +239,8 @@
   color: rgb(10, 10, 10);
 }
 
-
-
+.img
+{
+  width: 100%;
+  height: 350px;
+}
