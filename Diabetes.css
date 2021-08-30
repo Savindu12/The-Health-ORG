@@ -101,7 +101,9 @@
   background-position:center ;
   position: relative;
   width: 100%;
-  height: 110vh;
+  height: 150vh;
+  margin: 0;
+  padding: 0;
 }
 .heading1
 {
@@ -112,14 +114,16 @@
 }
 .main
 { 
-  display: inline-flex;
-  align-content: center;
+  width: 1280px;
+  margin: 70px auto 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-
 .box
 {
-  width: 350px;
-  height: 600px;
+  width: 300px;
+  height: 700px;
   background-color: gray;
   float: left;
   border: 1px solid black;
@@ -236,6 +240,7 @@
   font-style: italic;
   font-size: 15pt;
   padding: 1rem;
+  font-weight: bold;
   color: rgb(10, 10, 10);
 }
 
@@ -243,4 +248,13 @@
 {
   width: 100%;
   height: 350px;
+}
+.h5
+{
+  text-align: center;
+  font-style: italic;
+  font-size: 10pt;
+  padding: 1rem;
+  font-weight: bold;
+  color: rgb(10, 10, 10);
 }
