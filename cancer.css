@@ -415,7 +415,8 @@ margin: 0 auto;
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
-  padding-top: 40px;
+  padding-top: 50px;
+  font-size: 45px;
 
 }
 .section5-col:hover
@@ -430,6 +431,7 @@ margin: 0 auto;
   width: 50%;
   height: 300px;
   margin-left: 350px;
+  padding-top: 50px;
 }
 
 
