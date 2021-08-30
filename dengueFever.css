@@ -7,7 +7,7 @@
 
 .home
 {
-    background: url(images/mosquito.jpg) no-repeat;
+    background: url(dengueImages/cover.jpg) no-repeat;
     background-size: cover;
     background-position:center;
     position: relative;
@@ -24,13 +24,13 @@
 .home .cont h1
 {
     font-size: 4rem;
-    color: #fff;
+    color: rgb(19, 17, 19);
 }
 
 .home .cont p
 {
     font-size: 2rem;
-    color: rgb(255, 241, 46);
+    color: rgb(189, 15, 24);
     font-weight: normal;
 }
 
@@ -39,7 +39,7 @@
     display: inline-block;
     padding: .7rem 3rem;
     color: #fff;
-    background: rgb(15, 14, 15);
+    background: rgb(175, 14, 175);
     border-radius: 40px;
     box-shadow: #111;
     margin-top: 1rem;
@@ -50,11 +50,13 @@
 .btn:hover
 {
     background: #f4f4f8;
-    color: #050801;
-    box-shadow: 0 0 5px #e9eeee,
-                0 0 20px #f5fafa,
-                0 0 15px #e1e5e6,
-                0 0 50px #e1e5e6 ;
+    color: #29ecec;
+    box-shadow: 0 0 5px #1dc8f3,
+                0 0 20px #076db1,
+                0 0 15px #2f79e9,
+                0 0 50px #074db4 ;
+                
+               
 }
 
 .about
@@ -153,4 +155,213 @@
 {
   font-size: 20px;
   font-weight: 600;
+}
+.aaa{
+	background: honeydew;
+}
+.ddd{
+	display: flex;
+	width: 100%;
+	height: 300px;
+}
+.eee{
+	margin-left: 2%;
+	margin-right: 3.3%;
+	width: 30%;
+	height: 300px;
+	border: 1px green;
+	
+	
+}
+.fff{
+	margin-right: 3.3%;
+	width: 30%;
+	height: 300px;
+	
+	
+}
+.ggg{
+	margin-right: 3.3%;
+	
+	width: 30%;
+	height: 300px;
+	
+}
+.aaa h1{
+	text-align: center;
+	font-family: fantasy;
+	font-size: 35px;
+}
+.aaa p
+{
+	font-size: 24px;
+}
+.aaa img{
+	width: 100%;
+	height: 300px;
+}
+.aaa .foot{
+	background: honeydew;
+	width: 100%;
+	height: 50px;
+}
+.sym{
+	margin: 0;
+	padding: 0;
+	background: magenta;
+	font-family: sans-serif;
+
+}
+.sym .container{
+	width: 1280px;
+	margin: 70px auto 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.sym .container .box{
+	position: relative;
+	width: 300px;
+	height: 300px ;
+	border-radius: 30%;
+	background: yellow;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.sym .container .box .imgBox
+{
+	position: relative;
+	overflow: hidden;
+}
+.sym .container .box .imgBox img
+{
+	border-radius: 30%;
+	width: 300px;
+	height: 300px ;
+	max-width: 100%;
+	transition: transform 2s;
+}
+ .sym  .container .content
+{
+	border-radius: 30%;
+	width: 190px;
+	
+	position: absolute;
+	top: 0;
+	/*background: blue;*/
+	padding: 40px 20px ;
+	box-sizing: border-box;
+	transform-origin: left;
+	transition: .5s;
+	transform:perspective(600PX) rotateY(90deg);
+}
+.sym .container .content h1{
+	margin: 10px 0 ;
+	padding: 0;
+	color: brown;
+	font-style: 24px;
+}
+.sym .container:hover .content
+{
+	transform:perspective(600PX) rotateY(0deg) ;
+
+}
+.sym h2{
+	border-radius: 20%;
+	font-style: italic;
+	color: black;
+	background-color: yellow;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+.sym h1{
+	text-align: center;
+	color: black;
+}
+.pre{
+	margin: 0;
+	padding: 0;
+	background: black;
+	font-family: sans-serif;
+
+}
+.pre .container{
+	width: 1280px;
+	
+	
+	margin: 70px auto 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.pre .container .box{
+	position: relative;
+	width: 300px;
+	height: 300px ;
+	background: yellow;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.pre .container .box .imgBox
+{
+	position: relative;
+	overflow: hidden;
+}
+.pre .container .box .imgBox img
+{
+	max-width: 100%;
+	transition: transform 2s;
+}
+.pre .container .box:hover .imgBox img
+{
+	transform: scale(1.2);
+
+}
+.pre .container .box .details
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0, 0, 0, .8);
+	transform: scaleY(0) ;
+	transition: transform .5s;
+
+
+}
+.pre .container .box:hover .details
+{
+	transform: scaleY(1) ;
+
+}
+.pre .container .box .details .content
+{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding:15px ;
+	color: black;
+}
+.pre .container .box .details .content h2
+{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	color: yellow;
+}
+.pre .container .box .details .content p
+{
+	margin: 10px 0 0;
+	padding: 0;
+	color: white;
+	
+}
+.pre h1{
+	color: white;
+	text-align: center;
 }

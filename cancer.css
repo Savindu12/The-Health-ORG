@@ -23,31 +23,30 @@
 
 .home .cont h1
 {
-    float: right;
-    font-size: 2.45rem;
-    color: rgb(255, 255, 255);
-    text-shadow: 0 0 3px #0c0b0b, 0 0 5px #141414f8;
-    margin-right: 20px;
+   
+  margin-top: 2%;
+    font-size: 3.55rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff;
     
     
 }
-
-
 
 .btn
 {
     
-     padding: .7rem 3rem;
+    display: inline-block;
+    padding: .7rem 3rem;
     color: #fff;
     background: rgb(15, 14, 15);
     border-radius: 40px;
     box-shadow: #111;
-    margin-top: 50rem;
+    margin-top: 1rem;
     font-size: 1.7rem;
     text-decoration: none;
-    margin-left: 70rem;
    
 }
+
 
 .btn:hover
 {
@@ -57,4 +56,480 @@
                 0 0 20px #f5fafa,
                 0 0 15px #e1e5e6,
                 0 0 50px #e1e5e6 ;
+   
 }
+
+
+.about
+{
+  background:#fff;
+}
+
+.heading
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #111;
+  margin-top: -26px;
+}
+
+.heading h2
+{
+  font-weight: 700;
+  font-size: 40px;
+  color:#111;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+.content
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.contentBx
+{
+  padding-right: 30px;
+}
+
+.contentBx p
+{
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #111;
+  margin-left: -283px;
+  margin-top: 20px;
+ text-align: justify;
+}
+
+
+.w50
+{
+  max-width: 50%;
+}
+
+.img1
+{
+    margin-top: 30px;
+    float: right;
+    margin-right: 30px;
+  width: 440px;
+  height: 330px;
+}
+
+
+
+
+
+.container1
+{
+  margin-top: 2px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+  margin-left:2px ;
+  margin-right:2px;
+}
+
+.box1
+{
+  border: 1px solid rgb(255, 255, 255);
+  background-color: tomato;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+  text-align: center;
+  height: 95px;
+  border-radius: 12px;
+ 
+
+}
+
+
+.title1
+{
+
+	color: #fff;
+	text-align: center;
+ padding-top: 15px;
+ font-size: 35px;
+  
+}
+
+
+.box2
+{
+	text-align: justify;
+  margin-bottom: 100px;
+}
+
+.title2
+{
+	color: blue;
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 40px;
+	margin-top: 50px;
+
+}
+
+.img2
+{
+	margin-left: 289px;
+	
+}
+
+
+
+
+
+.para2
+{
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 20px;
+	font-style: sans-serif;
+
+}
+
+
+.ul1
+{
+	margin-left: 80px;
+	font-size: 20px;
+	font-style: sans-serif;
+  list-style: disc;
+}
+
+
+.para3
+{
+	margin-right: 40px;
+	font-size: 20px;
+	font-style: sans-serif;
+	margin-left: 40px;
+}
+
+
+
+
+
+
+.sec{
+
+  margin-top: 2px;
+  margin-left: -72px;
+  margin-right: -72px;
+  margin-bottom: -8px;
+  
+  
+  }
+  
+  .container2
+  {
+    background-color: #222f3e;
+    color: #fff;
+    min-height: 100vh;
+    font-family: tahoma;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  
+  .section4
+  {
+  
+    width: 90%;
+    margin-top: -90px;
+  }
+  
+  .section4 > h1
+  {
+  font-weight: 300px !important;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 3em;
+  
+  }
+
+  
+#im1
+{
+
+  width: 300px;
+  height: 300px;
+}
+
+
+#im2
+{
+
+  width: 300px;
+  height: 300px;
+}
+
+.container2
+{
+width: 90%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 0 auto;
+
+}
+
+.services1
+{
+
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.service1
+{
+  background-color: #282830;
+  margin: 10px;
+  padding: 35px 15px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  transition: background-color 0.3s ease-in,
+        transform 0.3s ease-in;
+
+  width: 249.9px;
+  height: 370px;
+
+
+}
+
+.service1 >ul
+{
+  justify-content: justify;
+}
+
+.service1:hover
+{
+  background-color: #e14460;
+  transform: translateY(-3px);
+
+}
+
+.service1::before
+{
+
+  content: "";
+  top: -35px;
+  position: absolute;
+  right: -40px;
+  border-width: 20px;
+  border-style: solid;
+  background-color: #222f3e rgba(0, 0, 0,0.4) #2c4159c9;
+  transition: right 0.3s ease-out,;
+
+}
+.service1:hover::before
+{
+
+  top: 0;
+  right: 0;
+
+}
+
+.service1 > .justify-content
+{
+
+  display: inline-block;
+  color: tomato;
+  font-size: 3.5em;
+  margin-bottom: 0.7em;
+  transition: color 0.3s ease-out;
+
+}
+
+.service1 > .title5
+{
+
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.55em;
+  margin-bottom: 1.2em;
+  text-transform: uppercase;
+  transition: color 0.3s ease-out;
+
+
+}
+.service1 > .para4
+{
+
+  line-height: 1.55em;
+  margin: 0;
+  transition: color 0.3s ease-out;
+  padding-top: 21px;
+  font-size: 17px;
+  
+
+}
+
+.service1 :hover > .icon,
+.service1 :hover > .title5,
+.service1 :hover > .para4
+
+{
+
+  color: #fff;
+}
+
+
+
+
+
+
+.section5
+{
+  background-color: #aaaab3;
+  padding-bottom: 75px;
+}
+
+
+
+.row1
+
+{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+
+.section5-col{
+
+  flex-basis: 31%;
+  background: #d795ed;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  margin-left: 10px;
+  height: 360px;
+
+}
+
+.title6 
+{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+  padding-top: 70px;
+  font-size: 45px;
+
+}
+.section5-col:hover
+{
+
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+}
+
+#img3
+{
+  width: 50%;
+  height: 300px;
+  margin-left: 350px;
+  padding-top: 50px;
+}
+
+.para5
+{
+padding-top: 16px;
+font-size: 17.5px;
+padding-left: 7px;
+padding-right: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container3
+{
+  background-color: white;
+  border: 1px solid black;
+}
+
+.box3
+{
+
+  background-color:blue;
+  border: 1px solid black;
+}
+
+.box3 h1
+{
+  color: white;
+  text-align: center;
+}
+
+.box4
+{
+  border: 1px solid black;
+  text-align: justify;
+  background-image: url(cancer\ image/pngtree-medical-red-cross-gesture-medical-element-image_14512.jpg);
+  height: 450px;
+  background-size: cover;
+  font-size: 20px;
+}
+.treats
+{
+  margin-left: 40px;
+  list-style: disc;
+
+}
+
+
+.box4 h3
+{
+  font-size: 30px;
+}
+
+
+
+#img4
+{
+  width: 300px;
+  height: 250px;
+  margin-left: 29%;
+}
+
+
+
+.box7
+{
+  border: 1px solid black;
+  text-align: justify;
+  margin-top: 5px;
+  background: url(cancer\ image/img5.jpg);
+  font-size: 20px;
+  background-size: cover;
+  height:450px;
+}
+
+
+.box7 h3
+{
+  font-size: 30px;
+}
+

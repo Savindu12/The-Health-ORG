@@ -262,3 +262,66 @@
   font-size: 2rem;
   color: #fff;
 }
+
+.precautions
+{
+  background: #fff;
+}
+
+.precautions .column
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.precautions .column .box-container
+{
+  margin: 1.5rem;
+  flex: 1 1 50rem;
+  border: .1rem solid rgba(0, 0, 0, 1);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+  border-radius: .5rem;
+}
+
+.precautions .column .box-container .title
+{
+  padding: 1.5rem .5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  background: rgb(69, 69, 212);
+  color: #fff;
+
+}
+
+.precautions .column .box-container:last-child .title
+{
+  background: #ff3300;
+}
+
+.precautions .column .box-container .box
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.precautions .column .box-container .box img
+{
+  width: 15rem;
+  padding: 1rem;
+}
+
+.precautions .column .box-container .box h3
+{
+  font-size: 2rem;
+  color: #2624a1b9;
+}
+
+.precautions .column .box-container .box p
+{
+  font-size: 1.2rem;
+  color: rgb(4, 4, 68);
+  padding: 1rem 0;
+}
