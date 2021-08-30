@@ -101,7 +101,7 @@
   background-position:center ;
   position: relative;
   width: 100%;
-  height: 120vh;
+  height: 110vh;
 }
 .heading1
 {
@@ -130,7 +130,8 @@
 }
 .mainbox1
 {
-  background: rgb(10, 218, 149);
+  background: rgb(219, 15, 15);
+  
 }
 .heading2 
 {
@@ -145,13 +146,14 @@
 { 
   display: inline-flex;
   align-content: center;
+  
 }
 
 .box1
 {
   width: 370px;
   height: 370px;
-  background-color: antiquewhite;
+  background-color: gray;
   float: left;
   padding: 40px;
   text-align: center;
@@ -206,9 +208,8 @@
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
-  color: rgb(27, 223, 230);
+  color: rgb(15, 15, 15);
   font-size: 3rem;
-  
 }
 .w50
 {
@@ -224,14 +225,5 @@
   padding: 1rem;
   color: rgb(15, 15, 15);
 }
-.imgBox h2{
-  color: aqua;
-}
 
-.main h3{
-  color: midnightblue;
-}
-.box1 h2{
-  color: crimson;
-}
 
