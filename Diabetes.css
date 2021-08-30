@@ -130,15 +130,12 @@
 }
 .mainbox1
 {
-  background: url(Images/88.jpg) no-repeat;
+  background: url(Images/89.jpg) no-repeat;
   background-size: cover;
   background-position:center ;
   position: relative;
   width: 100%;
   height: 130vh;
-  margin: 70px auto;
-  margin-left: 50px;
-  margin-right: 50px;
   
 }
 .heading2 
@@ -161,7 +158,7 @@
 {
   width: 370px;
   height: 370px;
-  background-color: gray;
+  background-color: rgb(233, 211, 114);
   float: left;
   padding: 40px;
   text-align: center;
