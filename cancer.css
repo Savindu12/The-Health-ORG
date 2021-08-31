@@ -3,7 +3,7 @@
     min-height: 100vh;
     padding: 1rem 9%;
     padding-top: 8rem;
-    box-shadow: 0 .5rem 1rem rgb(248, 7, 7);
+   
 
     
 }
@@ -133,7 +133,7 @@
     float: right;
     margin-right: 30px;
   width: 440px;
-  height: 200px;
+  height: 300px;
 }
 
 
@@ -157,7 +157,7 @@
   text-align: center;
   height: 95px;
   border-radius: 12px;
-  margin-top: 20px;
+  margin-top: 40px;
  
 
 }
