@@ -325,3 +325,52 @@
   color: rgb(4, 4, 68);
   padding: 1rem 0;
 }
+
+.hand-wash
+{
+  background: #244061;
+}
+
+.hand-wash h1
+{
+  font-size: 3.5rem;
+  color: #e4ccc6;
+}
+
+.hand-wash .column
+{
+  display: flex;
+  justify-content: center;
+}
+
+.hand-wash .column .main-image img
+{
+  width: 25vw;
+}
+
+.hand-wash .column .box-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hand-wash .column .box-container .box
+{
+  text-align: center;
+  margin: 2rem;
+}
+
+.hand-wash .column .box-container .box img
+{
+  width: 17rem;
+  height: 17rem;
+  padding: 1rem;
+}
+
+.hand-wash .column .box-container .box h3
+{
+  font-size: 1.5rem;
+  color: #e4ccc6;
+}
