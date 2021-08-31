@@ -486,24 +486,20 @@ text-align: justify;
 
 
 
-.container3
-{
-  background-color: white;
-  
- 
-}
+
 
 .box3
 {
 
   background-color:blue;
-  border: 1px solid black;
+  height: 90px;
 }
 
 .box3 h1
 {
   color: white;
   text-align: center;
+  padding-top: 18px;
 }
 
 .box4
