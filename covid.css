@@ -326,6 +326,11 @@
   padding: 1rem 0;
 }
 
+.hand-wash
+{
+  background: #121f2e;
+}
+
 .hand-wash .column
 {
   display: flex;
@@ -361,5 +366,5 @@
 .hand-wash .column .box-container .box h3
 {
   font-size: 2rem;
-  color: darkblue;
+  color: #e4ccc6;
 }
