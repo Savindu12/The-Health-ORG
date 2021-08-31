@@ -491,15 +491,23 @@ text-align: justify;
 .box3
 {
 
-  background-color:blue;
-  height: 90px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color:	
+  #4c52fc
+  ;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+  text-align: center;
+  height: 100px;
+  border-radius: 12px;
 }
 
 .box3 h1
 {
   color: white;
   text-align: center;
-  padding-top: 18px;
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .box4
