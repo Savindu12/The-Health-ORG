@@ -157,7 +157,7 @@
   text-align: center;
   height: 95px;
   border-radius: 12px;
-  margin-top: 40px;
+  
  
 
 }
@@ -314,15 +314,11 @@ margin: 0 auto;
         transform 0.3s ease-in;
 
   width: 270px;
-  height: 370px;
+  height: 375px;
 
 
 }
-.para4
-{
 
-  line-height: 7px;
-}
 
 .service1 >ul
 {
