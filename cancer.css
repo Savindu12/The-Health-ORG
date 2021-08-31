@@ -313,10 +313,15 @@ margin: 0 auto;
   transition: background-color 0.3s ease-in,
         transform 0.3s ease-in;
 
-  width: 249.9px;
+  width: 270px;
   height: 370px;
 
 
+}
+.para4
+{
+
+  line-height: 7px;
 }
 
 .service1 >ul
