@@ -510,18 +510,15 @@ text-align: justify;
   height: 450px;
   background-size: cover;
   font-size: 20px;
+  padding-top: 50px;
 }
-.treats
-{
-  margin-left: 40px;
-  list-style: disc;
 
-}
 
 
 .box4 h3
 {
   font-size: 30px;
+  p
 }
 
 
@@ -533,6 +530,13 @@ text-align: justify;
   margin-left: 29%;
 }
 
+.box6
+{
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
 
 
 .box7
