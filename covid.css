@@ -325,3 +325,22 @@
   color: rgb(4, 4, 68);
   padding: 1rem 0;
 }
+
+.hand-wash .column
+{
+  display: flex;
+  justify-content: center;
+}
+
+.hand-wash .column .main-image img
+{
+  width: 25vw;
+}
+
+.hand-wash .column .box-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
