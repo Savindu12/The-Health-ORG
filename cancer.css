@@ -504,55 +504,47 @@ text-align: justify;
 
 .box4
 {
-  border: 1px solid black;
+ 
   text-align: justify;
   background-image: url(cancer\ image/pngtree-medical-red-cross-gesture-medical-element-image_14512.jpg);
-  height: 450px;
+  height: 500px;
+  background-size: cover;
+  font-size: 20px;
+  padding-top: 50px;
+}
+.treats
+{
+  margin-left: 40px;
+  list-style: disc;
+  padding-top: 20px;
+}
+.box4 h3
+{
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+.box6
+{
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 40px;
+  text-align: justify;
+}
+.box7
+{
+  text-align: justify;
+  background: url(cancer\ image/img5.jpg);
+  height: 400px;
   background-size: cover;
   font-size: 20px;
   padding-top: 50px;
 }
 
 
-
-.box4 h3
-{
-  font-size: 30px;
-  p
-}
-
-
-
-#img4
-{
-  width: 300px;
-  height: 250px;
-  margin-left: 29%;
-}
-
-.box6
-{
-  margin-top: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
-  text-align: justify;
-}
-
-
-.box7
-{
-  border: 1px solid black;
-  text-align: justify;
-  margin-top: 5px;
-  background: url(cancer\ image/img5.jpg);
-  font-size: 20px;
-  background-size: cover;
-  height:450px;
-}
-
-
 .box7 h3
 {
   font-size: 30px;
+  padding-left: 30px;
 }
 
