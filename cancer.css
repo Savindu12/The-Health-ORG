@@ -404,7 +404,7 @@ margin: 0 auto;
 
 .section5
 {
-  background-color: #aaaab3;
+  background-color: #C4C4C4;
   padding-bottom: 75px;
 }
 
@@ -426,7 +426,7 @@ margin: 0 auto;
 .section5-col{
 
   flex-basis: 31%;
-  background: #d795ed;
+  background: #33F896;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -435,6 +435,10 @@ margin: 0 auto;
   margin-left: 10px;
   height: 360px;
 
+}
+
+.section5-col h1{
+  text-align: center;
 }
 
 .title6 
@@ -459,7 +463,9 @@ margin: 0 auto;
   height: 300px;
   margin-left: 350px;
   padding-top: 50px;
+ 
 }
+
 
 .para5
 {
@@ -467,6 +473,7 @@ padding-top: 16px;
 font-size: 17.5px;
 padding-left: 7px;
 padding-right: 7px;
+text-align: justify;
 }
 
 
