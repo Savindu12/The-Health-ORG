@@ -328,7 +328,13 @@
 
 .hand-wash
 {
-  background: #121f2e;
+  background: #244061;
+}
+
+.hand-wash h1
+{
+  font-size: 3.5rem;
+  color: #e4ccc6;
 }
 
 .hand-wash .column
@@ -365,6 +371,6 @@
 
 .hand-wash .column .box-container .box h3
 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #e4ccc6;
 }
