@@ -399,7 +399,8 @@
   margin-bottom: 10px;
 }
 
-.formBx form input
+.formBx form input,
+.formBx form textarea
 {
   margin-bottom: 20px;
   padding: 15px;
@@ -408,4 +409,38 @@
   border: none;
   outline: none;
   color: #fff;
+  resize: none;
+}
+
+.formBx form textarea
+{
+  min-height: 200px;
+  border-radius: 4px;
+}
+
+.formBx form input[type="submit"]
+{
+  max-width: 100px;
+  background: #244061;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.formBx form input[type="text"]
+{
+  max-width: 650px ;
+  border-radius: 4px;
+}
+
+.formBx form input[type="email"]
+{
+  max-width: 650px ;
+  border-radius: 4px;
+}
+
+.contactInfo
+{
+  max-width: 40%;
 }
