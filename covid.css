@@ -377,7 +377,7 @@
 
 .Rate-us
 {
-  background: #fff;
+  background: #82868c;
 }
 
 .formBx
@@ -416,6 +416,7 @@
 {
   min-height: 200px;
   border-radius: 4px;
+  max-width: 650px;
 }
 
 .formBx form input[type="submit"]
@@ -426,6 +427,13 @@
   letter-spacing: 2px;
   cursor: pointer;
   border-radius: 12px;
+}
+
+.formBx form input[type="submit"]:hover
+{
+  background: #111;
+  border-radius: 14px;
+  box-shadow: #244061;
 }
 
 .formBx form input[type="text"]
@@ -485,3 +493,4 @@
   color: #240c8f;
   margin-bottom: 10px;
 }
+

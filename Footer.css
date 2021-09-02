@@ -107,3 +107,11 @@ ul
     color: #24262b;
     background-color: #ffffff;
 }
+
+.copyright
+{
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
