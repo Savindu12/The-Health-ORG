@@ -440,7 +440,48 @@
   border-radius: 4px;
 }
 
-.contactInfo
+.content .contactInfo
 {
   max-width: 40%;
+  padding: 40px;
+}
+
+.content .contactInfoBx
+{
+  position: relative;
+}
+
+.content .contactInfoBx .box
+{
+  position: relative;
+  padding: 10px 0;
+  display: flex;
+}
+
+.content .contactInfoBx .box .Icon
+{
+  padding-top: 4px;
+  min-width: 40px;
+  color: #111;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  font-size: 24px;
+}
+
+.content .contactInfoBx .box .text
+{
+  display: flex;
+  font-size: 16px;
+  color: #111;
+  flex-direction: column;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.contactInfoBx .box .text h3
+{
+  font-weight: 500;
+  color: #240c8f;
+  margin-bottom: 10px;
 }
