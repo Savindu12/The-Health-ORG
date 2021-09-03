@@ -240,10 +240,9 @@
   margin-bottom: -10px;
   }
   
-  
   .container2
   {
-    background-color: #222f3e;
+    background-color: #c2f1f2;
     color: #fff;
     min-height: 100vh;
     font-family: tahoma;
@@ -254,6 +253,7 @@
   {
     width: 90%;
     margin-top: -90px;
+    color: black;
   } 
   .section4 > h1
   {
@@ -264,88 +264,88 @@
   font-size: 3em;
   
   }
+#im1
+{
+  width: 300px;
+  height: 300px;
+}
+#im2
+{
+  width: 300px;
+  height: 300px;
+}
+.container2
+{
+width: 90%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 0 auto;
+}
+.services1
+{
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
 
-  
-  #im1
-  {
-    width: 300px;
-    height: 300px;
-  }
-  #im2
-  {
-    width: 300px;
-    height: 300px;
-  }
+.service1
+{
+  background-color: #00203FFF;
+  margin: 10px;
+  padding: 35px 15px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  transition: background-color 0.3s ease-in,
+        transform 0.3s ease-in;
 
-  .container2
-  {
-  width: 90%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 auto;
-  }
-  .services1
-  {
-    margin-top: 70px;
-    margin-bottom: 40px;
-  }
-  
-  .service1
-  {
-    background-color: #282830;
-    margin: 10px;
-    padding: 35px 15px;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-    transition: background-color 0.3s ease-in,
-          transform 0.3s ease-in;
-  
-    width: 270px;
-    height: 375px;
-  }
-  .service1 >ul
-  {
-    justify-content: justify;
-  }
-  .service1:hover
-  {
-    background-color: #e14460;
-    transform: translateY(-3px);
-  }
-  
-  
-  
-  
-  .service1 > .justify-content
-  { 
-   display: inline-block;
-    color: tomato;
-    font-size: 3.5em;
-    margin-bottom: 0.7em;
-    transition: color 0.3s ease-out;
-  }
-  
-  .service1 > .title5
-  {
-    font-weight: 900;
-    font-size: 1.2em;
-    line-height: 1.55em;
-    margin-bottom: 1.2em;
-    text-transform: uppercase;
-    transition: color 0.3s ease-out;
-  }
-  .service1 > .para4
-  {
-    line-height: 1.55em;
-    margin: 0;
-    transition: color 0.3s ease-out;
-    padding-top: 21px;
-    font-size: 17px;
-  }
-  
-  
+  width: 270px;
+  height: 375px;
+}
+.service1 >ul
+{
+  justify-content: justify;
+}
+.service1:hover
+{
+  background-color:#33a6a2;
+  transform: translateY(-3px);
+}
+
+
+
+
+.service1 > .justify-content
+{ 
+ display: inline-block;
+  color: tomato;
+  font-size: 3.5em;
+  margin-bottom: 0.7em;
+  transition: color 0.3s ease-out;
+}
+
+.service1 > .title5
+{
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.55em;
+  margin-bottom: 1.2em;
+  text-transform: uppercase;
+  transition: color 0.3s ease-out;
+}
+.service1 > .para4
+{
+  line-height: 1.55em;
+  margin: 0;
+  transition: color 0.3s ease-out;
+  padding-top: 21px;
+  font-size: 17px;
+}
+
+
+
+
+
 
 
 
@@ -354,8 +354,9 @@
 
 .section5
 {
-  background-color: #C4C4C4;
+  background-color: #f3ffbd;
   padding-bottom: 80px;
+  font-family: serif;
 }
 
 
@@ -376,7 +377,7 @@
 .section5-col{
 
   flex-basis: 31%;
-  background: #33F896;
+  background: #759119;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -384,6 +385,7 @@
   transition: 0.5s;
   margin-left: 10px;
   height: 360px;
+  color: white;
 
 }
 
@@ -403,7 +405,7 @@
 .section5-col:hover
 {
 
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.6);
 
 }
 
@@ -442,9 +444,7 @@ text-align: justify;
 {
 
   border: 1px solid rgb(255, 255, 255);
-  background-color:	
-  #4c52fc
-  ;
+  background-color: #7361ff;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
   text-align: center;
   height: 100px;
@@ -464,7 +464,7 @@ text-align: justify;
 {
  
   text-align: justify;
-  background-image: url(cancer\ image/pngtree-medical-red-cross-gesture-medical-element-image_14512.jpg);
+  background-image: url(pngtree-medical-red-cross-gesture-medical-element-image_14512.jpg);
   height: 500px;
   background-size: cover;
   font-size: 20px;
@@ -492,7 +492,7 @@ text-align: justify;
 .box7
 {
   text-align: justify;
-  background: url(cancer\ image/img5.jpg);
+  background: url(img5.jpg);
   height: 400px;
   background-size: cover;
   font-size: 20px;
