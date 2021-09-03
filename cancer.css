@@ -250,14 +250,11 @@
     padding-bottom: 100px;
     padding-top: 100px;
   }
-  
   .section4
   {
-  
     width: 90%;
     margin-top: -90px;
-  }
-  
+  } 
   .section4 > h1
   {
   font-weight: 300px !important;
