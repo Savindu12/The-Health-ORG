@@ -266,21 +266,16 @@
   }
 
   
-#im1
-{
-
-  width: 300px;
-  height: 300px;
-}
-
-
-#im2
-{
-
-  width: 300px;
-  height: 300px;
-}
-
+  #im1
+  {
+    width: 300px;
+    height: 300px;
+  }
+  #im2
+  {
+    width: 300px;
+    height: 300px;
+  }
 .container2
 {
 width: 90%;
