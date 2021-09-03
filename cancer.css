@@ -276,117 +276,76 @@
     width: 300px;
     height: 300px;
   }
-.container2
-{
-width: 90%;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-margin: 0 auto;
 
-}
-
-.services1
-{
-
-  margin-top: 70px;
-  margin-bottom: 40px;
-}
-
-.service1
-{
-  background-color: #282830;
-  margin: 10px;
-  padding: 35px 15px;
-  text-align: center;
-  overflow: hidden;
-  position: relative;
-  transition: background-color 0.3s ease-in,
-        transform 0.3s ease-in;
-
-  width: 270px;
-  height: 375px;
-
-
-}
-
-
-.service1 >ul
-{
-  justify-content: justify;
-}
-
-.service1:hover
-{
-  background-color: #e14460;
-  transform: translateY(-3px);
-
-}
-
-.service1::before
-{
-
-  content: "";
-  top: -35px;
-  position: absolute;
-  right: -40px;
-  border-width: 20px;
-  border-style: solid;
-  background-color: #222f3e rgba(0, 0, 0,0.4) #2c4159c9;
-  transition: right 0.3s ease-out,;
-
-}
-.service1:hover::before
-{
-
-  top: 0;
-  right: 0;
-
-}
-
-.service1 > .justify-content
-{
-
-  display: inline-block;
-  color: tomato;
-  font-size: 3.5em;
-  margin-bottom: 0.7em;
-  transition: color 0.3s ease-out;
-
-}
-
-.service1 > .title5
-{
-
-  font-weight: 900;
-  font-size: 1.2em;
-  line-height: 1.55em;
-  margin-bottom: 1.2em;
-  text-transform: uppercase;
-  transition: color 0.3s ease-out;
-
-
-}
-.service1 > .para4
-{
-
-  line-height: 1.55em;
-  margin: 0;
-  transition: color 0.3s ease-out;
-  padding-top: 21px;
-  font-size: 17px;
+  .container2
+  {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  }
+  .services1
+  {
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
   
-
-}
-
-.service1 :hover > .icon,
-.service1 :hover > .title5,
-.service1 :hover > .para4
-
-{
-
-  color: #fff;
-}
+  .service1
+  {
+    background-color: #282830;
+    margin: 10px;
+    padding: 35px 15px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    transition: background-color 0.3s ease-in,
+          transform 0.3s ease-in;
+  
+    width: 270px;
+    height: 375px;
+  }
+  .service1 >ul
+  {
+    justify-content: justify;
+  }
+  .service1:hover
+  {
+    background-color: #e14460;
+    transform: translateY(-3px);
+  }
+  
+  
+  
+  
+  .service1 > .justify-content
+  { 
+   display: inline-block;
+    color: tomato;
+    font-size: 3.5em;
+    margin-bottom: 0.7em;
+    transition: color 0.3s ease-out;
+  }
+  
+  .service1 > .title5
+  {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.55em;
+    margin-bottom: 1.2em;
+    text-transform: uppercase;
+    transition: color 0.3s ease-out;
+  }
+  .service1 > .para4
+  {
+    line-height: 1.55em;
+    margin: 0;
+    transition: color 0.3s ease-out;
+    padding-top: 21px;
+    font-size: 17px;
+  }
+  
+  
 
 
 
