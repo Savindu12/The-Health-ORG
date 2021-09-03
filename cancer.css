@@ -41,8 +41,7 @@
 
 .btn
 {
-    
-  display: inline-block;
+    display: inline-block;
     padding: .7rem 3rem;
     color: #fff;
     background: rgb(15, 14, 15);
@@ -51,9 +50,7 @@
     margin-top: 1rem;
     font-size: 1.7rem;
     text-decoration: none;
-   
 }
-
 
 .btn:hover
 {
@@ -63,7 +60,6 @@
                 0 0 20px #f5fafa,
                 0 0 15px #e1e5e6,
                 0 0 50px #e1e5e6 ;
-   
 }
 
 
@@ -448,7 +444,7 @@ text-align: justify;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
   text-align: center;
   height: 100px;
-
+ 
 }
 
 .box3 h1
