@@ -12,7 +12,7 @@
 
 .home
 {
-    background: url(cancer.jpg) no-repeat;
+    background: url(cancer\ image/cancer.jpg) no-repeat;
     background-size: cover;
     background-position:center;
     position: relative;
@@ -552,7 +552,7 @@ margin-top: 20px;
 {
 
 font-size: 20px;
-background-image: url(pngtree-medical-red-cross-gesture-medical-element-image_14512.jpg);
+background-image: url(cancer\ image/pngtree-medical-red-cross-gesture-medical-element-image_14512.jpg);
 
 margin-top: 15px;
 margin-bottom: 10px;
@@ -572,5 +572,9 @@ padding-bottom: 50px;
   margin-left: 30px;
   margin-right:70px;
 }
+
+
+
+
 
 
