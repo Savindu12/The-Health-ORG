@@ -451,15 +451,13 @@ margin-top: 20px;
 {
   width: 100%;
  
-    color: black: #fff;
-    border: 1px solid rgb(255, 255, 255);
+    color:  #fff;
+    border:1px solid rgb(255, 255, 255);
     background-color:#d9d62b;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
-    
     height: 95px;
     border-radius: 12px;
     margin-top: -101px;
-
 }
 
 .title4  h1
