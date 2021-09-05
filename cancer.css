@@ -44,7 +44,7 @@
 {
    
  
-    font-size: 6.5rem;
+    font-size: 5.8rem;
     color: rgb(255, 255, 255);
     text-shadow: 0 0 30px #000000, 0 0 50px #030303;
     font-weight: bold;
@@ -58,10 +58,10 @@
 {
     display: inline-block;
     padding: 0.7rem 3rem;
-    color: rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
+    color: #fff;
+    background: rgb(15, 14, 15);
     border-radius: 40px;
-    box-shadow: rgb(255, 252, 252);
+    box-shadow: #111;
   margin-top:25px;
     font-size: 1.8rem;
    text-decoration: none;
@@ -72,9 +72,12 @@
 
 .btn:hover
 {
-    background: #000000;
-    color: #ffffff;
-    
+  background: #f4f4f8;
+  color: #050801;
+  box-shadow: 0 0 5px #e9eeee,
+              0 0 20px #f5fafa,
+              0 0 15px #e1e5e6,
+              0 0 50px #e1e5e6 ;
 }
 
 .about
