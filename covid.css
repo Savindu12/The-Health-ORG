@@ -494,7 +494,11 @@
   margin-bottom: 10px;
 }
 
+
+
 /*Responsive Actions */
+
+
 
 @media (max-width: 991px)
 {
@@ -585,5 +589,39 @@
   {
     font-size: 2.5rem;
   }
+
 }
 
+@media (max-width:991px)
+{
+  .section
+  {
+    padding: 1rem 3%;
+    padding-top: 8rem;
+  }
+
+  #menu
+  {
+    display: block;
+  }
+
+  .prevent .box-container .box h3
+  {
+    font-size: 5.5rem;
+  }
+
+  .prevent .box-container .box p
+  {
+    font-size: 5.5rem;
+  }
+
+  .symptoms .column .main-image img
+  {
+    display: none;
+  }
+
+  .symptoms .column .box-container .box img
+  {
+    width: 14rem;
+  }
+}
