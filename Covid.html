@@ -12,30 +12,14 @@
     <body>
         <header>
             <a href="#" class="logo">The Health ORG</a>
-            <div class="navigation"></div>
-            <ul class="menu">
-                <li class="menu-item"><a href="Coverpage.html">Home</a></li>
-                <li class="menu-item"><a href="Covid.html">Covid-19</a></li>
-                <li class="menu-item"><a href="HealthDeaseases.html">Health Deaseses</a></li>
-                <li class="menu-item"><a href="WFP.html">WFP</a></li>
-            </ul>
-       
-        
-        <script>
-            window.addEventListener("scroll",function()
-                {
-                    var header=document.querySelector("header");
-                    header.classList.toggle("sticky",window.scrollY >0);
-                });
-
-                function toggleMenu()
-                {
-                    var menuToggle=document.querySelector('.toggle');
-                    var menu=document.querySelector('.menu');
-                    menuToggle.classList.toggle('.active');
-                    menu.classList.toggle('.active');
-                }
-        </script>
+            <div class="navigation">
+               <ul class="menu">
+                  <li class="menu-item"><a href="Coverpage.html">Home</a></li>
+                  <li class="menu-item"><a href="Covid.html">Covid-19</a></li>
+                  <li class="menu-item"><a href="HealthDeaseases.html">Health Deaseses</a></li>
+                  <li class="menu-item"><a href="WFP.html">WFP</a></li>
+               </ul>
+            </div>
      </header>
 
      <section class="home" id="home">

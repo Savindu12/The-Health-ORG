@@ -24,5 +24,25 @@ header
 
 header .logo
 {
-  
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header .navigation
+{
+  position: relative;
+  line-height: 75px;
+}
+
+header .navigation .menu
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  user-select: none;
 }
