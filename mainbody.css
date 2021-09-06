@@ -117,7 +117,7 @@ header .navigation .menu
     position: fixed;
     display: block;
     background: #252627;
-    min-width: 350px;
+    min-width: 150px;
     height: 100vh;
     top: 0;
     right: 0;
