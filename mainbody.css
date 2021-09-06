@@ -16,7 +16,7 @@ header
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #8691b1;
+  background: #252627;
   box-shadow: 0 5px 25px rgb(0, 0, 0 / 20%);
   padding: 0 100px;
   transition: 0.6s;
@@ -45,4 +45,13 @@ header .navigation .menu
   justify-content: center;
   list-style: none;
   user-select: none;
+}
+
+.menu-item > a
+{
+  color: #fff;
+  text-decoration: none;
+  margin: 20px;
+  padding: 25px 0;
+  font-size: 1em;
 }
