@@ -52,7 +52,7 @@ header .navigation .menu
   color: #fff;
   text-decoration: none;
   margin: 20px;
-  padding: 25px 0;
+  padding: 25px 15px;
   font-size: 1em;
 }
 
@@ -61,3 +61,50 @@ header .navigation .menu
   color: #469DEF;
   transition: 0.3s;
 }
+
+.menu .sub-menu
+{
+  top: 74px;
+  position: absolute;
+  background: #252627;
+  line-height: 40px;
+  list-style: none;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 5px 25px rgb(0, 0, 0 / 20%);
+  pointer-events: none;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 0.3s;
+  transition-property: transform,opacity;
+}
+
+.menu-item:hover .sub-menu
+{
+  pointer-events: all;
+  transform: translateY(0);
+  opacity: 2;
+  transition: 0.3s;
+}
+
+.menu .sub-menu .sub-item
+{
+  position: relative;
+  padding: 7px 0;
+  cursor: pointer;
+  box-shadow: inset 0 -30px 5px -30px rgba(255, 255, 255, 0.2) ;
+}
+
+.menu .sub-menu .sub-item a
+{
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 1em;
+}
+
+.menu .sub-menu .sub-item:hover
+{
+  background: #4080EF;
+  transition: 0.5s;
+}
+
