@@ -542,7 +542,7 @@
     background-size: 30px;
   }
 
-  .toggle .active
+  .toggle.active
   {
     background: url(Covid\ Images/close.png);
     background-position: center;
@@ -555,3 +555,35 @@
     filter: invert(1);
   }
 }
+
+@media (max-width:760px)
+{
+  html
+  {
+    font-size: 50%;
+  }
+
+  .home .cont h1
+  {
+    font-size: 4rem;
+  }
+
+  .home .cont p
+  {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width:450px)
+{
+  .home .cont h1
+  {
+    font-size: 3.5rem;
+  }
+
+  .home .cont p
+  {
+    font-size: 2.5rem;
+  }
+}
+
