@@ -588,6 +588,11 @@
   {
     width: 20rem;
   }
+
+  .hand-wash .column .main-image img
+  {
+    display: none;
+  }
 }
 
 @media (max-width:760px)
@@ -605,6 +610,12 @@
   .home .cont p
   {
     font-size: 3.5rem;
+  }
+
+  .hand-wash .column .main-image img
+  {
+    width: 25vw;
+    height: 40px;
   }
 }
 
