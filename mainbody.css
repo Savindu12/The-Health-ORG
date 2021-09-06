@@ -55,3 +55,9 @@ header .navigation .menu
   padding: 25px 0;
   font-size: 1em;
 }
+
+.menu-item > a:hover
+{
+  color: #469DEF;
+  transition: 0.3s;
+}
