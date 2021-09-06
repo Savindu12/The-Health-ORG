@@ -150,4 +150,15 @@ header .navigation .menu
   {
     box-shadow: none;
   }
+
+  .menu-item:hover .sub-menu .sub-item:hover
+  {
+    background: none;
+  }
+
+  .menu-item:hover .sub-menu .sub-item a:hover
+  {
+    color: #469DEF;
+    transition: 0.3s;
+  }
 }
