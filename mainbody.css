@@ -108,3 +108,46 @@ header .navigation .menu
   transition: 0.5s;
 }
 
+/* Responsive actions */
+
+@media (max-width: 1060px)
+{
+  header .navigation .menu
+  {
+    position: fixed;
+    display: block;
+    background: #252627;
+    min-width: 350px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    padding: 90px 50px;
+    overflow-y: auto;
+  }
+
+  .menu-item
+  {
+    position: relative;
+  }
+
+  .menu-item .sub-menu
+  {
+    opacity: 1;
+    position: relative;
+    top: 0;
+    transform: translateX(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .menu-item:hover .sub-menu
+  {
+    transform: translateX(10px);
+  }
+
+  .menu-item:hover .sub-menu .sub-item
+  {
+    box-shadow: none;
+  }
+}
