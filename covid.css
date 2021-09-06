@@ -494,3 +494,44 @@
   margin-bottom: 10px;
 }
 
+/*Responsive Actions */
+
+@media (max-width: 991px)
+{
+  header, header .sticky
+  {
+    padding: 20px 50px;
+    z-index: 1000;
+  }
+
+  .menu
+  {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    display: block;
+    padding: 100px 50px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    transition: 0.5s;
+    z-index: 999;
+    border-top: 1px solid rgba(0, 0, 0, 2);
+  }
+
+  header ul li a
+  {
+    color: rgb(56, 36, 36);
+  }
+
+  .toggle
+  {
+    width: 40px;
+    height: 40px;
+    background: url(Covid\ Images/menu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+  }
+}
