@@ -76,7 +76,7 @@
   color:rgb(219, 107, 107);
 }
 
-.content
+.content1
 {
   display: flex;
   justify-content: space-between;
@@ -120,7 +120,7 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-.box
+.box1
 {
   width: 300px;
   height: 600px;
@@ -257,4 +257,123 @@
   padding: 1rem;
   font-weight: bold;
   color: rgb(10, 10, 10);
+}
+
+.Rate-us
+{
+  background: #82868c;
+}
+
+.formBx
+{
+  min-width: 60%;
+}
+
+.formBx form
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.formBx form h3, 
+.contactInfo h3
+{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.formBx form input,
+.formBx form textarea
+{
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  background: #222;
+  border: none;
+  outline: none;
+  color: #fff;
+  resize: none;
+}
+
+.formBx form textarea
+{
+  min-height: 200px;
+  border-radius: 4px;
+  max-width: 650px;
+}
+
+.formBx form input[type="submit"]
+{
+  max-width: 100px;
+  background: #244061;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.formBx form input[type="submit"]:hover
+{
+  background: #111;
+  border-radius: 14px;
+  box-shadow: #244061;
+}
+
+.formBx form input[type="text"]
+{
+  max-width: 650px ;
+  border-radius: 4px;
+}
+
+.formBx form input[type="email"]
+{
+  max-width: 650px ;
+  border-radius: 4px;
+}
+
+.content .contactInfo
+{
+  max-width: 40%;
+  padding: 40px;
+}
+
+.content .contactInfoBx
+{
+  position: relative;
+}
+
+.content .contactInfoBx .box
+{
+  position: relative;
+  padding: 10px 0;
+  display: flex;
+}
+
+.content .contactInfoBx .box .Icon
+{
+  padding-top: 4px;
+  min-width: 40px;
+  color: #111;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  font-size: 24px;
+}
+
+.content .contactInfoBx .box .text
+{
+  display: flex;
+  font-size: 16px;
+  color: #111;
+  flex-direction: column;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.contactInfoBx .box .text h3
+{
+  font-weight: 500;
+  color: #240c8f;
+  margin-bottom: 10px;
 }
