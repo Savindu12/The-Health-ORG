@@ -1,4 +1,4 @@
-.section
+.section 
 {
     min-height: 100vh;
     padding: 1rem 9%;
@@ -7,7 +7,7 @@
 
 .home
 {
-    background: url(dengueImages/cover.jpg) no-repeat;
+    background: url(images/virus2.jpg) no-repeat;
     background-size: cover;
     background-position:center;
     position: relative;
@@ -24,13 +24,13 @@
 .home .cont h1
 {
     font-size: 4rem;
-    color: rgb(19, 17, 19);
+    color: #fff;
 }
 
 .home .cont p
 {
     font-size: 2rem;
-    color: rgb(189, 15, 24);
+    color: rgb(255, 241, 46);
     font-weight: normal;
 }
 
@@ -39,7 +39,7 @@
     display: inline-block;
     padding: .7rem 3rem;
     color: #fff;
-    background: rgb(175, 14, 175);
+    background: rgb(15, 14, 15);
     border-radius: 40px;
     box-shadow: #111;
     margin-top: 1rem;
@@ -50,14 +50,13 @@
 .btn:hover
 {
     background: #f4f4f8;
-    color: #29ecec;
-    box-shadow: 0 0 5px #1dc8f3,
-                0 0 20px #076db1,
-                0 0 15px #2f79e9,
-                0 0 50px #074db4 ;
-                
-               
+    color: #050801;
+    box-shadow: 0 0 5px #e9eeee,
+                0 0 20px #f5fafa,
+                0 0 15px #e1e5e6,
+                0 0 50px #e1e5e6 ;
 }
+
 
 .about
 {
@@ -364,4 +363,117 @@
 .pre h1{
 	color: white;
 	text-align: center;
+}
+.formBx
+{
+  min-width: 60%;
+}
+
+.formBx form
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.formBx form h3, 
+.contactInfo h3
+{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.formBx form input,
+.formBx form textarea
+{
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  background: #222;
+  border: none;
+  outline: none;
+  color: #fff;
+  resize: none;
+}
+
+.formBx form textarea
+{
+  min-height: 200px;
+  border-radius: 4px;
+  max-width: 650px;
+}
+
+.formBx form input[type="submit"]
+{
+  max-width: 100px;
+  background: #244061;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.formBx form input[type="submit"]:hover
+{
+  background: #111;
+  border-radius: 14px;
+  box-shadow: #244061;
+}
+
+.formBx form input[type="text"]
+{
+  max-width: 650px ;
+  border-radius: 4px;
+}
+
+.formBx form input[type="email"]
+{
+  max-width: 650px ;
+  border-radius: 4px;
+}
+
+.content .contactInfo
+{
+  max-width: 40%;
+  padding: 40px;
+}
+
+.content .contactInfoBx
+{
+  position: relative;
+}
+
+.content .contactInfoBx .box
+{
+  position: relative;
+  padding: 10px 0;
+  display: flex;
+}
+
+.content .contactInfoBx .box .Icon
+{
+  padding-top: 4px;
+  min-width: 40px;
+  color: #111;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  font-size: 24px;
+}
+
+.content .contactInfoBx .box .text
+{
+  display: flex;
+  font-size: 16px;
+  color: #111;
+  flex-direction: column;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.contactInfoBx .box .text h3
+{
+  font-weight: 500;
+  color: #240c8f;
+  margin-bottom: 10px;
 }
