@@ -108,18 +108,9 @@ header .navigation .menu
   transition: 0.5s;
 }
 
-.close-btn
+.menu-btn
 {
-  position: absolute;
-  background: url("Covid\ Images/close.png")no-repeat;
-  width: 40px;
-  height: 40px;
-  background-size: 25px;
-  background-position: center;
-  left: 0;
-  top: 0;
-  margin: 25px;
-  cursor: pointer;
+  display: none;
 }
 
 /* Responsive actions */
@@ -174,5 +165,30 @@ header .navigation .menu
   {
     color: #469DEF;
     transition: 0.3s;
+  }
+
+  .close-btn
+  {
+    position: absolute;
+    background: url("Covid\ Images/close.png")no-repeat;
+    width: 40px;
+    height: 40px;
+    background-size: 25px;
+    background-position: center;
+    left: 0;
+    top: 0;
+    margin: 25px;
+    cursor: pointer;
+  }
+
+  .menu-btn
+  {
+     background: url("Covid\ Images/menu/png")no-repeat;
+     width: 40px;
+     height: 40px;
+     background-size: 30px;
+     background-position: center;
+     cursor: pointer;
+     display: block;
   }
 }
