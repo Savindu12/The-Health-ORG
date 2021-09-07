@@ -108,6 +108,20 @@ header .navigation .menu
   transition: 0.5s;
 }
 
+.close-btn
+{
+  position: absolute;
+  background: url("Covid\ Images/close.png")no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: 25px;
+  background-position: center;
+  left: 0;
+  top: 0;
+  margin: 25px;
+  cursor: pointer;
+}
+
 /* Responsive actions */
 
 @media (max-width: 1060px)
@@ -120,7 +134,7 @@ header .navigation .menu
     height: 100vh;
     min-width: 350px;
     top: 0;
-    right: 0;
+    right: -100;
     padding: 90px 50px;
     overflow-y: auto;
   }
