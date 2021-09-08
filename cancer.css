@@ -423,7 +423,9 @@ margin-top: 20px;
 .section2-col
 {
   flex-basis: 31%;
-  background: #055237;
+  background: 
+  #01b127
+  ;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -472,6 +474,8 @@ margin-top: 20px;
 .section2-col:hover
 {
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.6);
+  background-color: #88ff00;
+  color: #050801;
 }
 
 #img4
