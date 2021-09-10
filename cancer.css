@@ -124,6 +124,7 @@
 .contentBx
 {
   padding-right: 30px;
+  line-height: 30px;
 }
 
 .contentBx p
@@ -148,6 +149,7 @@
   margin-right: 30px;
   width: 440px;
   height: 300px;
+  box-shadow: 5px 5px 5px 5px #666666;
 }
 
 
