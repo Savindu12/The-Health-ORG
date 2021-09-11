@@ -109,7 +109,7 @@
   float: left;
   margin-top: 50px;
   text-align: center;
-  margin-left: 21px;
+  margin-left: 41px;
 }
 
 .content2
@@ -168,7 +168,7 @@
 {
 
   border: 1px solid rgb(255, 255, 255);
-  background-color: #2cab2c;
+  background-color: #1d0085;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
   text-align: center;
   height: 95px;
@@ -305,7 +305,7 @@ margin-top: 20px;
   
   .container2
   {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     color: #fff;
     height: 800px;
     font-style: sans-serif;
@@ -332,7 +332,7 @@ margin: 0 auto;
     margin-top: -100px;
     color: black;
     border: 1px solid rgb(255, 255, 255);
-    background-color: #3446eb;
+    background-color: rgba(0, 4, 255, 0.986);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
     text-align: center;
     height: 95px;
@@ -352,7 +352,8 @@ margin-top: 20px;
 
 .service1
 {
-  background-color: #051d52;
+  border: 2.5px solid rgb(0, 0, 0);
+  background-color: #01002b;
   margin: 10px;
   padding: 35px 15px;
   text-align: center;
@@ -360,7 +361,7 @@ margin-top: 20px;
   position: relative;
   transition: background-color 0.3s ease-in,
         transform 0.3s ease-in;
-
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.6);
   width: 270px;
   height: 425px;
 }
@@ -372,7 +373,7 @@ margin-top: 20px;
 
 .service1:hover
 {
-  background-color:#33a6a2;
+  background-color:#0059ff;
   transform: translateY(-3px);
 }
 
@@ -428,7 +429,7 @@ margin-top: 20px;
 {
   flex-basis: 31%;
   background: 
-  #01b127
+  #00d9ff;
   ;
   border-radius: 10px;
   margin-bottom: 5%;
@@ -437,7 +438,7 @@ margin-top: 20px;
   transition: 0.5s;
   margin-left: 10px;
   height:430px;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
 
   margin-top: 60px;
@@ -460,7 +461,7 @@ margin-top: 20px;
  
     color:  #fff;
     border:1px solid rgb(255, 255, 255);
-    background-color:#d9d62b;
+    background-color:rgba(1, 36, 148, 0.986);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
     height: 95px;
     border-radius: 12px;
@@ -478,8 +479,8 @@ margin-top: 20px;
 .section2-col:hover
 {
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.6);
-  background-color: #88ff00;
-  color: #050801;
+  background-color: #005499;
+  color: #ffffff;
 }
 
 #img4
@@ -535,7 +536,7 @@ line-height: 1.55em;
     width: 100%;
     color:  #fff;
     border: 1px solid rgb(255, 255, 255);
-    background-color:#22bdb8;
+    background-color:rgba(31, 149, 204, 0.781);;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
     border-radius: 12px;
     height: 95px;
@@ -554,7 +555,7 @@ margin-top: 20px;
 {
   margin-left: 90px;
   list-style: disc;
-  padding-top: 20px;
+  padding-top: 40px;
   line-height: 35px;
 }
 
