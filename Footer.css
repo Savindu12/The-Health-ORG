@@ -28,3 +28,42 @@ footer
   align-items: flex-start;
   justify-content: space-between;
 }
+
+.col
+{
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+footer h1
+{
+  margin-bottom: 30px;
+}
+
+.col h3
+{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.email-id
+{
+  width: fit-content;
+  border-bottom: 1px solid #acc;
+  margin: 20px 0;
+}
+
+footer ul li
+{
+  list-style: none;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+footer ul li a
+{
+  text-decoration: none;
+  color: #fff;
+}
