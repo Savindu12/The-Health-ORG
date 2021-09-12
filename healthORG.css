@@ -9,13 +9,14 @@
 section
 {
   padding: 100px;
+  background:url(images/Background.jpg);
 }
 
 .banner
 {
   position: relative;
   min-height: 100vh;
-  background:url(images/Background.jpg);
+  
   background-size: cover;
   background-position:right;
   display: flex;
