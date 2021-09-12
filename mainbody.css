@@ -1,0 +1,52 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+nav
+{
+    background: #1b1b1b;
+}
+
+nav:after
+{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+nav ul 
+{
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+}
+
+nav ul li
+{
+    float: left;
+    display: inline-block;
+    background: black;
+    margin: 0 5px;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+nav ul ul
+{
+    
+}
+
+
+
