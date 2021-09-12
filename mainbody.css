@@ -18,6 +18,17 @@ nav:after
     display: table;
 }
 
+nav .logo
+{
+    float: left;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-left: 60px;
+    display: none;
+}
+
 nav ul 
 {
     float: right;
@@ -30,7 +41,7 @@ nav ul li
 {
     float: left;
     display: inline-block;
-    background: black;
+    background: #1b1b1b;
     margin: 0 5px;
 }
 
@@ -45,8 +56,23 @@ nav ul li a
 
 nav ul ul
 {
-    
+    position: absolute;
+    top: 70px;
+    display: none;
 }
+
+nav ul ul li
+{
+    position: relative;
+    margin: 0px;
+    width: 150px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a
+
 
 
 
