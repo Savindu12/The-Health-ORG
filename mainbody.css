@@ -29,6 +29,27 @@ header .logo
     letter-spacing: 2px;
 }
 
+header ul
+{
+    position: relative;
+    display: flex;
+}
+
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a
+{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
 
 
 
