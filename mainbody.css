@@ -16,6 +16,7 @@ header:after
     content: '';
     clear: both;
     display: table;
+    position: relative;
 }
 
 header .logo
