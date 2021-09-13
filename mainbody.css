@@ -94,7 +94,8 @@ header ul li a:hover
 
 header ul ul li a:hover
 {
-    box-shadow: none;color: cyan;
+    box-shadow: none;
+    color: cyan;
 }
 
 
