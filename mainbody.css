@@ -22,7 +22,7 @@ header .logo
 {
     float: left;
     color: white;
-    font-size: 27px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 70px;
     padding-left: 60px;
@@ -38,7 +38,6 @@ header ul
 
 header ul li
 {
-    float: left;
     display: inline-block;
     background: #1b1b1b;
     margin: 0 5px;
@@ -49,7 +48,7 @@ header ul li a
     color: white;
     text-decoration: none;
     line-height: 70px;
-    font-size: 18px;
+    font-size: 20px;
     padding: 8px 15px;
 }
 
