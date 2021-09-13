@@ -110,6 +110,32 @@ hr
     left: 0;
 }
 
+.col ul li a:hover
+{
+    color: rgb(69, 110, 187);
+    transition: 0.2s;
+}
+
+/* Responsive section */
+
+@media (max-width: 700px)
+{
+    footer
+    {
+        bottom: unset;
+    }
+
+    .col
+    {
+        flex-basis: 100%;
+    }
+
+    .col:nth-child(2) , col:nth-child(3)
+    {
+        flex-basis: 100%;
+    }
+
+}
 
 
 
