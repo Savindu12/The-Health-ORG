@@ -30,8 +30,7 @@ footer
 {
     flex-basis: 20%;
 }
-
-h2
+.row h2
 {
     margin-bottom: 30px;
     font-size: 25px;
@@ -52,13 +51,13 @@ h2
     margin: 20px 0;
 }
 
-ul li
+.row ul li
 {
     list-style: none;
     margin-bottom: 12px;
 }
 
-ul li a
+.row ul li a
 {
     text-decoration: none;
     color: #fff;
@@ -85,7 +84,7 @@ ul li a
     color: #fff;
 }
 
-hr
+.row hr
 {
     width: 90%;
     border: 0;

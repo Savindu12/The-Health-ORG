@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
+    <head> 
         <title>The health ORG</title>
         <link rel="stylesheet" type="text/css" href="healthORG.css">
         <link rel="stylesheet" type="text/css" href="Footer.css">
@@ -23,6 +21,13 @@
                 <li><a href="#">Diabetics</a></li>
                 <li><a href="#">WFP</a></li>
             </ul>
+
+            <script type="text/javascript">
+                window.addEventListener('scroll',function(){
+                    var header = document.querySelector('header');
+                    header.classList.toggle('sticky', window.scrollY>0);
+                });
+            </script>
         </header>
 
         <section class="banner">
@@ -50,6 +55,8 @@
                 </div>
             </div>
         </section>
+
+        
 
 
         <footer>

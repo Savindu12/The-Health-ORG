@@ -9,7 +9,26 @@
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     </head>
     <body>
-        
+        <header>
+            <a href="#" class="logo">The HealthORG</a>
+            <div class="toggle"></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Covid-19</a></li>
+                <li><a href="#">Cancer</a></li>
+                <li><a href="#">Dengue</a></li>
+                <li><a href="#">Kidney</a></li>
+                <li><a href="#">Diabetics</a></li>
+                <li><a href="#">WFP</a></li>
+            </ul>
+
+            <script type="text/javascript">
+                window.addEventListener('scroll',function(){
+                    var header = document.querySelector('header');
+                    header.classList.toggle('sticky', window.scrollY>0);
+                });
+            </script>
+        </header>
         <footer>
             <div class="row">
                 <div class="col">
