@@ -11,8 +11,8 @@
     <body>
         <header>
             <a href="#" class="logo">The HealthORG</a>
-            <div class="toggle"></div>
-            <ul>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="menu">
                 <li><a href="Coverpage.html">Home</a></li>
                 <li><a href="Covid.html">Covid-19</a></li>
                 <li><a href="cancer.html">Cancer</a></li>
@@ -27,6 +27,14 @@
                     var header = document.querySelector('header');
                     header.classList.toggle('sticky', window.scrollY>0);
                 });
+
+                function toggleMenu()
+                {
+                    var menuToggle = document.querySelector('.toggle');
+                    var menu = document.querySelector('.menu');
+                    menuToggle.classList.toggle('active');
+                    menu.classList.toggle('active');
+                }
             </script>
         </header>
 
@@ -46,8 +54,7 @@
                 <div class="contentBx">
                     <h3>The Health ORG</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem at aspernatur soluta facilis? Cum, veritatis et! Quis vitae est, ducimus ipsum iure adipisci voluptatibus. Assumenda nisi autem at voluptatem ut!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, architecto exercitationem? Tempora alias atque corporis aliquam, laboriosam doloribus corrupti tempore in labore beatae consequuntur iure quas culpa, dolorum dignissimos amet?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse culpa ratione incidunt facere, quae aperiam dolorem nemo eveniet sint delectus tenetur sapiente doloribus laudantium maiores quasi enim. Possimus, incidunt commodi.
+                       mmodi.
                     </p>
                 </div>
                 <div class="w50">
