@@ -131,6 +131,17 @@ img
   color: #fff;
 }
 
+.services .heading h2 , p
+{
+  color: #fff;
+}
+
+.services .heading p
+{
+  font-size: 20px;
+  margin: 10px;
+}
+
 .services .content
 {
   display: flex;
@@ -142,25 +153,27 @@ img
 .services .content .serviceBx
 {
   padding: 40px 20px;
-  background: #9599a1;
-  color: #111;
+  background: #222;
+  color: #fff;
   max-width: 340px;
   margin: 20px;
   text-align: center;
   transition: 0.5s;
-  border-radius: 5px;
+  border-radius: 15px;
+
 }
 
 .services .content .serviceBx:hover
 {
-  background: #8ea5d4;
+  background: #2196f3;
 }
 
 .services .content .serviceBx img
 {
-  max-height: 90px;
-  max-width: 90px;
+  max-height: 80px;
+  max-width: 80px;
   filter: invert(1);
+  margin-bottom: 22px;
 }
 
 .services .content .serviceBx h2
