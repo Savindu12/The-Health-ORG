@@ -3,6 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>World Food Program</title>
+        <link rel="stylesheet" type="text.css" href="WFP.css">
         <link rel="stylesheet" type="text/css" href="Footer.css">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <link rel="stylesheet" type="text/css" href="mainbody.css">
@@ -11,24 +12,59 @@
     <body>
         <header>
             <a href="#" class="logo">The HealthORG</a>
-            <div class="toggle"></div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Covid-19</a></li>
-                <li><a href="#">Cancer</a></li>
-                <li><a href="#">Dengue</a></li>
-                <li><a href="#">Kidney</a></li>
-                <li><a href="#">Diabetics</a></li>
-                <li><a href="#">WFP</a></li>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="menu">
+                <li><a href="Coverpage.html">Home</a></li>
+                <li><a href="Covid.html">Covid-19</a></li>
+                <li><a href="cancer.html">Cancer</a></li>
+                <li><a href="dengueFever.html">Dengue</a></li>
+                <li><a href="kidney.html">Kidney</a></li>
+                <li><a href="Diabetes.html">Diabetics</a></li>
+                <li><a href="WFP.html">WFP</a></li>
             </ul>
-
-            <script type="text/javascript">
-                window.addEventListener('scroll',function(){
-                    var header = document.querySelector('header');
-                    header.classList.toggle('sticky', window.scrollY>0);
-                });
-            </script>
         </header>
+
+        <script type="text/javascript">
+            window.addEventListener('scroll',function(){
+                var header = document.querySelector('header');
+                header.classList.toggle('sticky', window.scrollY>0);
+            });
+
+            function toggleMenu()
+            {
+                var menuToggle = document.querySelector('.toggle');
+                var menu = document.querySelector('.menu');
+                menuToggle.classList.toggle('active');
+                menu.classList.toggle('active');
+            }
+        </script>
+
+
+        <section class="home" id="home">
+            <div class="cont">
+                <h1>Stay Safe Stay In</h1>
+                <p>Protect Yourself from Covid-19 Pandemic</p>
+                <a href="#about" class="btn">Details</a>
+            </div>
+         </section>
+    
+         <section class="about" id="about">
+            <div class="heading">
+                <h2>COVID-19 Pandemic</h2>
+            </div>
+            <div class="content">
+                <div class="contentBx">
+                    <p>Covid-19 is arguably the most deadly plague in the world right now. The epidemic has spread to many countries around the world and has now claimed a large number of lives.<br> <br></p> 
+                    <p>The exact origin of the Covid virus, which has drastically changed the world's economy as well as the general way of life, has not yet been identified.<br></p>
+                    <p>This web page will give you all the tips you need to protect yourself from this Covid epidemic as well as a description of the vaccines currently in use in the world.</p>
+                </div>
+                <div class="w50">
+                    <img src="images/world.jpg" class="img1">
+                </div>
+            </div>
+        </section>
+
+
         <footer>
             <div class="row">
                 <div class="col">

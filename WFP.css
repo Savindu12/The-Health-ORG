@@ -5,3 +5,10 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+.section
+{
+    min-height: 100vh;
+    padding: 1rem 9%;
+    padding-top: 8rem;
+}
