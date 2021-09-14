@@ -23,14 +23,19 @@ header.sticky
 header .logo
 {
     color: #fff;
-    font-size: 24px;
+    font-size: 25px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 2px;
 }
 
-header .sticky .logo
+.sticky .logo
+{
+    color: #111;
+}
+
+.sticky ul li a
 {
     color: #111;
 }
@@ -54,12 +59,11 @@ header ul li a
     margin: 0 15px;
     color: #fff;
     text-decoration: none;
+    font-size: 17px;
 }
 
-header .sticky ul li a
-{
-    color: #111;
-}
+
+
 
 
 
