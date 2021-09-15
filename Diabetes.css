@@ -92,16 +92,23 @@
 
 .contentBx
 {
-  padding-right: 50px;
+  padding-right: 30px;
 }
 
 .contentBx p
 {
   font-size: 24px;
-  margin-bottom: 200px;
+  margin-bottom: 25px;
   color: rgb(118, 167, 182);
   padding-left: 10px;
 }
+
+.w50
+{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
 .mainbox
 {
   background: url(Images/59.jpg) no-repeat;
@@ -109,10 +116,11 @@
   background-position:center ;
   position: relative;
   width: 100%;
-  height: 150vh;
+  height: auto;
   margin: 0;
   padding: 0;
 }
+
 .heading1
 {
   text-align: center;
@@ -120,13 +128,15 @@
   font-size: 40pt;
   padding: 1rem;
 }
+
 .main
 { 
-  width: 1280px;
-  margin: 70px auto 40px;
+  width: auto;
+  margin: 60px auto 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-left: 100px;
 }
 .box1
 {
@@ -152,20 +162,20 @@
 }
 
 
-.sym{
-  margin: 0;
-  padding: 0;
+.sym
+{
   background: white;
   font-family: sans-serif;
-
 }
+
 .sym1
 {
-  width: 1280px;
+  width: 100%;
   margin: 70px auto 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-left: 150px;
 }
 .box3{
   position: relative;
@@ -195,10 +205,9 @@
 }
 .pre
 {
-  margin: 0;
-  padding: 0;
   background: rgb(157, 241, 124);
   font-family: sans-serif;
+  margin-bottom: 20px;
 }
 .prebox
 {
@@ -265,5 +274,146 @@
   padding: 1rem;
   font-weight: bold;
   color: rgb(10, 10, 10);
+}
+
+@media (max-width: 991px)
+{
+  section 
+  {
+      padding: 100px 50px;
+  }
+
+  .banner
+  {
+      padding: 150px 50px 100px;
+  }
+
+  .banner h2
+  {
+      font-size: 2.5em;
+  }
+
+  .banner h3
+  {
+      font-size: 1em;
+  }
+
+  .btn
+  {
+      margin-top: 10px;
+      padding: 10px 30px;
+      font-size: 25x;
+  }
+
+  .heading h2
+  {
+      font-size: 35px;
+  }
+
+  .contentBx h3
+  {
+      font-size: 20px;
+  }
+
+  .content1
+  {
+      flex-direction: column;
+      margin-bottom: -10px;
+  }
+
+  .w50
+  {
+      margin-bottom: -100px;
+      margin-top: 30px;
+      width: 100%;
+      margin-left: 100px;
+  }
+
+  .heading2 
+  {
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    text-shadow: black;
+    padding: 1rem;
+    color: rgb(201, 84, 48);
+  }
+
+  .preh2
+  {
+    text-align: center;
+    font-style: italic;
+    font-size: 35px;
+    padding: 1rem;
+    color: rgb(223, 204, 204);
+  }
+
+  .h5
+  {
+    font-style: italic;
+    font-size: 14px;
+    padding: 1rem;
+    color: rgb(10, 10, 10);
+  }
+
+  .main
+  {
+    margin-left: 0px;
+  }
+
+  .sym1
+  {
+    width: 100%;
+    margin: 70px auto 0;
+    flex-direction: initial;
+    flex-wrap: wrap;
+    margin-left: 80px;
+  }
+
+  .prebox
+  {
+    width: 1280px;
+    padding: 200px;
+    margin-right: -200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -200px;
+    margin-left: -60px;
+
+  } 
+
+  .prebox1
+  {
+    width: 400px;
+    height: 450px;
+    background: rgb(241, 241, 107);
+    box-sizing: border-box;   
+  }
+  .prebox2
+  {
+    width: 400px;
+    height: 450px;
+    background: white;
+    box-sizing: border-box; 
+  }
+
+  .preh2
+  {
+    text-align: center;
+    font-style: italic;
+    font-size: 45px;
+    padding: 1rem;
+    color: rgb(224, 10, 10);
+  }
+
+  .preh3
+  {
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    padding: 1rem;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+  }
 }
 
