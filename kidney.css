@@ -227,6 +227,7 @@
 .w60
 {
   max-width: 50%;
+  margin-bottom: 20px;
 }
 
 .img2
@@ -294,6 +295,15 @@
   color: rgb(255, 255, 255);
   padding-left: 20px;
 }
+
+.para2Bx ul li
+{
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+
 .aabb
 {
   background: url(Images/katie-smith-uQs1802D0CQ-unsplash.jpg) no-repeat;
@@ -319,6 +329,12 @@
   margin-bottom: 50px;
   color: rgb(255, 255, 255);
   padding-left: 20px;
+  margin-left: 30px;
+}
+
+.para3Bx ul li
+{
+  margin-bottom: 20px;
 }
 
 .prevent
@@ -334,4 +350,110 @@
   font-weight: 700;
   font-size: 50px;
   color:rgb(255, 255, 255);
+}
+
+.para1Bx ul li
+{
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px)
+{
+  section 
+  {
+      padding: 100px 50px;
+  }
+
+  .banner
+  {
+      padding: 150px 50px 100px;
+  }
+
+  .banner h2
+  {
+      font-size: 2.5em;
+  }
+
+  .banner h3
+  {
+      font-size: 1em;
+  }
+
+  .btn
+  {
+      margin-top: 10px;
+      padding: 20px 40px;
+      font-size: 26px;
+  }
+
+  .heading h2
+  {
+      font-size: 40px;
+  }
+
+  .contentBx p
+  {
+      font-size: 20px;
+      text-align: center;
+  }
+
+  .content
+  {
+      flex-direction: column;
+  }
+
+  .w50
+  {
+      margin-bottom: 20px;
+      margin-left: 30px;
+      min-width: 90%;
+  }
+
+  .para
+  {
+    flex-direction: column;
+  }
+
+  .paraBx p
+  {
+      font-size: 27px;
+      text-align: center;
+  }
+
+  .w60
+  {
+      margin-bottom: 10px;
+      margin-left: 130px;
+      min-width: 90%;
+  }
+
+  .para1
+  {
+    flex-direction: column;
+  } 
+
+  .para1Bx
+  {
+   padding-right: 50px;
+   padding-bottom: 0;
+  }
+
+  .para1Bx ul
+  {
+   font-size: 28px;
+   margin-bottom: 40px;
+   color: rgb(0, 0, 0);
+   padding-left: 20px;
+  }
+
+  .para1Bx ul li
+  {
+    margin-bottom: 20px;
+  }
+
+  .w70
+  {
+    display: none;
+  }
+
 }
