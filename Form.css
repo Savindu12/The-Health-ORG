@@ -12,7 +12,7 @@ textarea {
   font-family: "Poppins", sans-serif;
 }
 
-.container {
+.Form_container {
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -133,7 +133,7 @@ form {
     transform: translateY(0);
   }
   
-  .btn {
+  .button {
     padding: 0.6rem 1.3rem;
     background-color: #fff;
     border: 2px solid #fafafa;
@@ -148,7 +148,7 @@ form {
     width: 100%;
   }
   
-  .btn:hover {
+  .button:hover {
     background-color: transparent;
     color: #fff;
   }
@@ -234,12 +234,12 @@ form {
     color: #333;
   }
   
-  .social-icons {
+  .socialIcons {
     display: flex;
     margin-top: 0.5rem;
   }
   
-  .social-icons a {
+  .socialIcons a {
     width: 35px;
     height: 35px;
     border-radius: 5px;
@@ -251,7 +251,7 @@ form {
     transition: 0.3s;
   }
   
-  .social-icons a:hover {
+  .socialIcons a:hover {
     transform: scale(1.05);
   }
   
@@ -369,7 +369,7 @@ form {
       font-size: 1.15rem;
     }
   
-    .social-icons a {
+    .socialIcons a {
       width: 30px;
       height: 30px;
       line-height: 30px;
@@ -383,7 +383,7 @@ form {
       padding: 0.45rem 1.2rem;
     }
   
-    .btn {
+    .button {
       padding: 0.45rem 1.2rem;
     }
   }
