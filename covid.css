@@ -145,11 +145,13 @@
   padding: 40px 20px;
   background: #9599a1;
   color: #111;
-  max-width: 340px;
+  max-width: 370px;
   margin: 20px;
   text-align: center;
   transition: 0.5s;
   border-radius: 15px;
+  font-size: 25px;
+  line-height: 30px;
 }
 
 .services .content .serviceBx:hover
@@ -392,7 +394,7 @@
 
 .Rate-us
 {
-  background: #82868c;
+  background: #cfd2d6;
 }
 
 .formBx
