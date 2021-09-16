@@ -117,7 +117,18 @@
 
 .programs
 {
-  background-color: rgb(12, 10, 94);
+  background-color: rgb(144, 143, 187);
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+
+.programs .container h2
+{
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 45px;
+  font-weight: 600;
+  color: rgb(255, 248, 248);
 }
 
 .programs .boxContainer
@@ -125,6 +136,7 @@
   display: grid;
   grid-template-columns: repeat(4 ,1fr);
   grid-gap: 50px;
+  margin: 20px;
 }
 
 .programs .boxContainer .box
@@ -141,11 +153,113 @@
 .programs .boxContainer .box .cardImage
 {
   width: 100%;
-  height: 300px;
+  height: 400px;
   background-position: center;
   background-size: cover;
   position: relative;
   overflow: hidden;
   border-radius: 5px 5px 0 0;
 }
- 
+
+.programs .boxContainer .box .cardImage::after
+{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  filter: grayscale(100%);
+  transition: 0.4s;
+}
+
+.programs .boxContainer .box:nth-child(1) .cardImage,
+.programs .boxContainer .box:nth-child(1) .cardImage:after
+{
+  background-image: url(WFP/education.jpg);
+} 
+
+.programs .boxContainer .box:nth-child(2) .cardImage,
+.programs .boxContainer .box:nth-child(2) .cardImage:after
+{
+  background-image: url(WFP/whealthy.jpg);
+} 
+
+.programs .boxContainer .box:nth-child(3) .cardImage,
+.programs .boxContainer .box:nth-child(3) .cardImage:after
+{
+  background-image: url(WFP/water.jpg);
+} 
+
+.programs .boxContainer .box:nth-child(4) .cardImage,
+.programs .boxContainer .box:nth-child(4) .cardImage:after
+{
+  background-image: url(WFP/clean.jpg);
+} 
+
+.programs .boxContainer .box:hover .cardImage:after
+{
+  top: 100%;
+}
+
+.programs .boxContainer .box .programTitle
+{
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #444;
+}
+
+.programs .boxContainer .box .donationCount
+{
+  font-size: 15px;
+  font-weight: 600;
+  color: #444;
+  margin-top: 10px;
+}
+
+.programs .boxContainer .box .donationCount span
+{
+  color: rgba(255, 0, 0, 0.699);
+}
+
+.programs .boxContainer .box button
+{
+  position: absolute;
+  left: 50%;
+  background-color: rgba(8, 95, 146, 0.699);
+  color: #fff;
+  transform: translate(-50%);
+  bottom: -15px;
+  border-radius: 60px;
+  padding: 10px 25px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.programs .boxContainer .box button:hover
+{
+  background-color: rgba(4, 139, 218, 0.774);
+}
+
+@media  screen and (max-width: 1024px) 
+{
+  .programs .boxContainer
+  {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media  screen and (max-width: 780px) 
+{
+  .programs .boxContainer
+  {
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+
