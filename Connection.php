@@ -11,11 +11,9 @@
     {
 	    echo "Connection successful";
     }
-    
+
     else
     {
 	    echo "Connection failed".mysqli_error($con);
     }   
-
-
 ?>
