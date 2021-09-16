@@ -114,3 +114,38 @@
 {
   max-width: 100%;
 }
+
+.programs
+{
+  background-color: rgb(12, 10, 94);
+}
+
+.programs .boxContainer
+{
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr);
+  grid-gap: 50px;
+}
+
+.programs .boxContainer .box
+{
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 25px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 0 #c5c5c5;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.programs .boxContainer .box .cardImage
+{
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+}
+ 
