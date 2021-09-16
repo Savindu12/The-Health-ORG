@@ -68,6 +68,7 @@
 .about
 {
   background:#fff;
+  margin: 20px;
 }
 
 .heading
@@ -81,8 +82,9 @@
 .heading h2
 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 45px;
   color:#111;
+  margin-top: 30px;
 }
 
 .content
@@ -112,16 +114,22 @@
 .img1
 {
   max-width: 100%;
+  margin-bottom: 30px;
+  margin-right: 10px;
 }
 
 .services
 {
   background:#2f2f30;
+  padding-bottom: 40px;
 }
 
-.heading .white
+.services .headwhite
 {
   color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 40px;
 }
 
 .services .content
@@ -141,7 +149,7 @@
   margin: 20px;
   text-align: center;
   transition: 0.5s;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .services .content .serviceBx:hover
@@ -149,17 +157,16 @@
   background: #8ea5d4;
 }
 
-.services .content .serviceBx img
-{
-  max-height: 90px;
-  max-width: 90px;
-  filter: invert(1);
-}
-
 .services .content .serviceBx h2
 
 {
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.services .content .serviceBx p
+{
+  font-size: 15px;
   font-weight: 600;
 }
 
@@ -506,9 +513,83 @@
 
 /*Responsive Actions */
 
+@media (max-width: 991px)
+{
+  section 
+  {
+      padding: 100px 50px;
+  }
+
+  .banner
+  {
+      padding: 150px 50px 100px;
+  }
+
+  .banner h2
+  {
+      font-size: 2.5em;
+  }
+
+  .banner h3
+  {
+      font-size: 1em;
+  }
+
+  .btn
+  {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+  }
+
+  .heading h2
+  {
+      font-size: 24px;
+  }
+
+  .contentBx h3
+  {
+      font-size: 20px;
+  }
+
+  .content
+  {
+      flex-direction: column;
+  }
+
+  .w50
+  {
+      margin-bottom: 20px;
+  }
+
+  .img1
+  {
+      max-width: 100%;
+      margin-bottom: -30px;
+      margin-right: 10px;
+      margin-left: 120px;
+  }
+
+  .heading h2
+  {
+      font-weight: 700;
+      font-size: 40px;
+      color:#111;
+      margin-top: 20px;
+  }
+  .contentBx p
+  {
+    font-size: 22px;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: #111;
+    padding-left: 10px;
+  }
+
+}
 
 
-/*@media (max-width: 1060px)
+@media (max-width: 1060px)
 {
   header, header .sticky
   {
@@ -625,6 +706,20 @@
     width: 25vw;
     height: 40px;
   }
+
+  .services .content .serviceBx h2
+
+{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.services .content .serviceBx p
+{
+  font-size: 15px;
+  font-weight: 400;
+} 
+
 }
 
 @media (max-width:450px)
@@ -638,5 +733,22 @@
   {
     font-size: 2.5rem;
   }
+
+  
 }
-*/
+
+@media (max-width:250px)
+{
+  .img1
+  {
+      display: none;
+  }
+
+  .heading h2
+  {
+      font-weight: 700;
+      font-size: 30px;
+      color:#111;
+      margin-top: 20px;
+  }
+}
