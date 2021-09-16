@@ -116,16 +116,21 @@
   margin-bottom: 100px;
   color: rgb(0, 0, 0);
   padding-left: 10px;
+  margin-left: 20px;
+  text-align: justify;
+  line-height: 32px;
 }
 
 .w50
 {
   max-width: 50%;
+  margin-right: 20px;
 }
 
 .img1
 {
   max-width: 100%;
+  height: 85%;
 }
 
 .services
@@ -205,16 +210,28 @@
 .paraBx p
 {
   font-size: 28px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: rgb(255, 255, 255);
   padding-left: 20px;
+  line-height: 40px;
+  text-align: justify;
+  margin-top: 35px;
+  margin-left: 35px;
 }
+
+.abc
+{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
 .Treatments
 {
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
   color: rgb(0, 0, 0);
+  margin-top: 80px;
 }
 
 .Treatments h2
@@ -233,11 +250,17 @@
 .img2
 {
   max-width: 75%;
+  margin-left: 85px;
 }
+
 .para1
 {
   display: flex;
   justify-content: space-between;
+  margin-left: 30px;
+  margin-top: 20px;
+  padding-top: 20px;
+  margin-bottom: 40px;
 }
 
 .para1Bx
@@ -257,7 +280,7 @@
 {
   width: 100%;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   color: rgb(0, 0, 0);
 }
 
@@ -266,11 +289,13 @@
   font-weight: 700;
   font-size: 50px;
   color:rgb(255, 255, 255);
+  padding-top: 50px;
 }
 
 .w70
 {
   max-width: 50%;
+  margin-bottom: 80px;
 }
 
 .img3
@@ -294,6 +319,7 @@
   margin-bottom: 50px;
   color: rgb(255, 255, 255);
   padding-left: 20px;
+  margin-left: 50px;
 }
 
 .para2Bx ul li
@@ -325,11 +351,12 @@
 
 .para3Bx ul
 {
-  font-size: 28px;
+  font-size: 30px;
   margin-bottom: 50px;
-  color: rgb(255, 255, 255);
+  color: rgb(247, 247, 247);
   padding-left: 20px;
   margin-left: 30px;
+  font-weight: 550;
 }
 
 .para3Bx ul li
@@ -342,7 +369,7 @@
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
-  color: rgb(0, 0, 0);
+  color: rgb(244, 245, 237);
 }
 
 .prevent h2
@@ -350,6 +377,7 @@
   font-weight: 700;
   font-size: 50px;
   color:rgb(255, 255, 255);
+  padding-top: 40px;
 }
 
 .para1Bx ul li
@@ -423,8 +451,8 @@
   .w60
   {
       margin-bottom: 10px;
-      margin-left: 130px;
       min-width: 90%;
+      margin-right: 200px;
   }
 
   .para1
